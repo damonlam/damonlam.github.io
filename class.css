@@ -1,0 +1,177 @@
+.container {
+	margin-top: 5vh;
+	width:90vw;
+	height:100vh;
+	display: grid;
+	grid-template-columns: 27% 73%;
+}
+.sidebar{
+	width:100%;
+	height:100%;
+	/* vertical-align:top; */
+}
+
+.content{
+	width:100%;
+	height:100vh;
+	/* line-height: 5vh; */
+	/* border: 1px solid grey; */
+}
+	
+/* .spacer{
+	width:7%;
+	height:100%;
+	vertical-align:top;
+} */
+
+.here{
+	color:tomato;
+}
+
+.header-icon{
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	width:5vw;
+}
+.header-icon-side{
+	display: block;
+	width:5vw;
+}
+/* .nav{
+
+	text-indent:none;
+	margin-left:-20px;
+	margin-top:30vh;
+	position:fixed;
+	bottom:10vh;
+
+	font:20px avenir, helvetica;
+} */
+
+.logo{
+	position:fixed;
+	/* margin-top:2vw; */
+
+}
+
+.normal-link{
+	font:1.2vw avenir, helvetica;
+	line-height: 3vw;
+}
+
+.photo-column{
+	widows: 100px;
+	height:	100%;
+	vertical-align:top;
+}
+
+.slideshow{
+	display: grid;
+	grid-template-columns: 15% 85%;
+	
+}
+
+.slider{
+	height:auto;
+	width:5vw;
+}
+.saberLink a:hover, a:focus{
+	/* color:white; */
+	/* margin-left:5px; */
+	font-size:100%;
+	transition: .2s;
+	/* background-color:#F2C252; */
+	/* padding:3px 40vw 3px 6px; */
+}
+
+/* .contact-canvas{
+	flex-wrap: wrap;
+	align-items: center;
+} */
+.name-card{
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	width:20vw;
+
+}
+.burger div{
+	width: 28px;
+	height: 5px;
+	background-color: orange;
+	margin: 5px;
+}
+.burger{
+	display: none;
+}
+.content-canvas{
+	margin-top: -5vw;
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+@media screen and (max-width: 1024px){
+	.nav-home{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 1000){
+	body{
+		overflow-y: hidden;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.container{
+		flex-wrap: flex;
+	}
+	.sidebar{
+		width:90vw;
+		height:100vh;
+		/* vertical-align:top; */
+		display:block;
+	}
+	.logo{
+		margin-top: 0px;
+		margin-left: 0px;
+		position:fixed;
+	
+	}
+	.nav-home{
+		position: absolute;
+		bottom:0px;
+		height: 40vh;
+		background-color: orange;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		width:50%;
+		transform: translateY(100%);
+		transition: transform 0.5s ease-in;
+	}
+	.nav-home li{
+		opacity:0;
+	}
+	.burger{
+		display: block;
+		position:-webkit-sticky;
+		position: sticky;
+		position: fixed;
+	}
+}
+.nav-active{
+	transform:translateY(0%);
+}
+
+/* @keyframes navLinkFade{
+	from{
+		opacity:0;
+		transform: translateX(50px);
+	}to{
+		opacity:1;
+		transform: translateX(0px);
+	}
+} */

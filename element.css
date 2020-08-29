@@ -1,0 +1,34 @@
+body{
+	margin-top:5vw;
+	margin-left:6vw;
+	margin-right:7vw;
+	/* margin-bottom:5vw; */
+}
+
+span{
+	/*border:1px solid black;*/
+	display:inline-block;
+}
+
+ul{
+	list-style:none;
+	/* padding-top:6vh; */
+	/* margin-left:-40px; */
+	position:fixed;
+	
+}
+
+a{
+	color:orange;
+	text-decoration:none;
+	font-family:avenir, helvetica;
+}
+
+p{
+	font:1.5vw avenir, helvetica;
+}
+
+h2{
+	font:2vw avenir, helvetica;
+}
+
