@@ -1,3 +1,4 @@
+@media screen and (min-width: 1242px){
 .container {
 	margin-top: 5vh;
 	width:90vw;
@@ -111,13 +112,14 @@
 	align-items: center;
   	justify-content: center;
 }
-
-@media screen and (max-width: 1024px){
+}
+/* @media screen and (max-width: 1024px){
 	.nav-home{
 		width: 60%;
 	}
-}
-@media screen and (max-width: 1000){
+}*/
+
+@media screen and (max-width: 1242px){
 	body{
 		overflow-y: hidden;
 		margin-top: 0px;
@@ -127,12 +129,16 @@
 	}
 	.container{
 		flex-wrap: flex;
+		display:grid;
+		grid-template-rows: 100vh 100vh;
+		grid-template-columns: 100vw;
 	}
 	.sidebar{
 		width:90vw;
 		height:100vh;
-		/* vertical-align:top; */
-		display:block;
+		/* display:block; */
+		grid-row-start: 1;
+		grid-row-end: 2;
 	}
 	.logo{
 		margin-top: 0px;
