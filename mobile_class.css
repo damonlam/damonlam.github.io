@@ -5,7 +5,8 @@
         grid-template-rows: 70vh 100vh;
     }
     .sidebar {
-        align-content: flex-end;
+        width:100%;
+        /* align-content: flex-end; */
         margin-left: auto;
         margin-right: auto;
         grid-row-start: 1;
@@ -14,6 +15,7 @@
     .content {
         position:initial;
         display:block;
+        margin-bottom: 10vh;
     }
     .logo{
 
