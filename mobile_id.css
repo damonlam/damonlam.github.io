@@ -5,5 +5,7 @@
 
 	font:20px avenir, helvetica;
     }
-
+    #about-text{
+        width: 100%;
+    }
 }

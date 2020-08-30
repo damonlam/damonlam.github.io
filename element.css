@@ -34,10 +34,10 @@ h2{
 
 @media screen and (max-device-width: 1250px){
 body{
-	margin-top: 5vw;
-	margin-left: 5vw;
-	margin-bottom: 5vw;
-	margin-right: 5vw;
+	margin-top: 10vw;
+	margin-left: 10vw;
+	margin-bottom: 10vw;
+	margin-right: 10vw;
 }
 ul{
 	position:initial;
