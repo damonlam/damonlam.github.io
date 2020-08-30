@@ -5,10 +5,10 @@ body{
 	/* margin-bottom:5vw; */
 }
 
-span{
+/* span{
 	/*border:1px solid black;*/
 	display:inline-block;
-}
+} */
 
 ul{
 	list-style:none;
@@ -32,3 +32,18 @@ h2{
 	font:2vw avenir, helvetica;
 }
 
+@media screen and (max-device-width: 1250px){
+body{
+	margin-top: 5vw;
+	margin-left: 5vw;
+	margin-bottom: 5vw;
+	margin-right: 5vw;
+}
+ul{
+	position:initial;
+}
+p{
+	font-size:initial;
+	font-family: avenir, helvetica;
+}
+}

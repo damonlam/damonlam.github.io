@@ -1,10 +1,10 @@
 @media screen and (max-device-width: 1250px){
     .container {
         width:100vw;
-        display: block;
+        
         justify-content: center;
         display:grid;
-        grid-template-columns: 100%;
+        /* grid-template-columns: 100%; */
     }
     .sidebar {
         position:initial;
@@ -19,5 +19,6 @@
     }
     .header-icon{
         width:30vw;
+        justify-items: center;
     }
 }
