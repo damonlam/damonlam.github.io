@@ -2,12 +2,19 @@
     .container {
         width:100vw;
         display: block;
-        flex-wrap: wrap;
+        justify-content: center;
+        display:grid;
+        grid-template-columns: 100%;
     }
     .sidebar {
         position:initial;
+        justify-content: center;
     }
-    .nav-home{
-        
+    .content {
+        position:initial;
+        display:block;
+    }
+    .logo{
+        justify-items: center;
     }
 }
