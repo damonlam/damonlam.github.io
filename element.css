@@ -6,9 +6,9 @@ body{
 }
 
 /* span{
-	/*border:1px solid black;*/
+	/*border:1px solid black;
 	display:inline-block;
-} */
+}*/
 
 ul{
 	list-style:none;
@@ -45,5 +45,6 @@ ul{
 p{
 	font-size:initial;
 	font-family: avenir, helvetica;
+	/* text-align: justify; */
 }
 }
