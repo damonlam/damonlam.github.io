@@ -1,0 +1,9 @@
+@media screen and (max-device-width: 1250px){
+    #nav{
+	    position: initial;
+
+
+	font:20px avenir, helvetica;
+    }
+
+}

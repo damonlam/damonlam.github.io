@@ -1,0 +1,13 @@
+@media screen and (max-device-width: 1250px){
+    .container {
+        width:100vw;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .sidebar {
+        position:initial;
+    }
+    .nav-home{
+        
+    }
+}

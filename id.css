@@ -89,3 +89,10 @@
 #about-text{
 	width: 85%;
 }
+
+@media screen and (max-width: 1242px){
+	#logo-size{
+		width: 60vw;
+	}
+
+}
