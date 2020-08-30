@@ -1,0 +1,24 @@
+body{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.container { 
+    /* justify-content: center; */
+    display:grid;
+    grid-template-rows: 70vh 100vh;
+}
+.sidebar{
+    width:100%;
+    display:flex;
+    
+}
+.logo{
+    /* width: 100%; */
+    margin-left:auto;
+    margin-right:auto;
+}
+#logo-size{
+    width:20vw;
+}

@@ -7,15 +7,20 @@
     .sidebar {
         width:100%;
         /* align-content: flex-end; */
-        margin-left: auto;
-        margin-right: auto;
-        grid-row-start: 1;
+
+        /* grid-row-start: 1; */
 
     }
     .content {
         position:initial;
         display:block;
         margin-bottom: 10vh;
+    }
+    .content-canvas{
+        /* margin-top: -5vw; */
+        /* display:flex; */
+        align-items: center;
+        justify-content: center;
     }
     .logo{
 
