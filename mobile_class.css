@@ -17,4 +17,7 @@
     .logo{
         justify-items: center;
     }
+    .header-icon{
+        width:30vw;
+    }
 }
