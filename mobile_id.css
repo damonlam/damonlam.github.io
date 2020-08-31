@@ -4,8 +4,9 @@
 	    font:20px avenir, helvetica;
     }
     #about-text{
-        width: initial;
-    
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     #logo-size{
         width: 50vw;

@@ -37,4 +37,13 @@
         display: grid;
         grid-template-columns: ;
     }
+    .icon-div-center{
+        display:flex;
+        justify-content: center;	
+    }
+    .icon-size{
+        width:20vw;
+        height:20vw;
+        
+    }
 }
