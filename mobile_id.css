@@ -1,19 +1,16 @@
 @media screen and (max-device-width: 1250px){
     #nav{
 	    position: initial;
-
-
-	font:20px avenir, helvetica;
+	    font:20px avenir, helvetica;
     }
     #about-text{
         width: initial;
-        align-content: center;
+    
     }
     #logo-size{
-        width: 50%;
-        justify-content:center;
+        width: 50vw;
     }
     .header-icon img{
-        justify-self:center;
+    
     }
 }

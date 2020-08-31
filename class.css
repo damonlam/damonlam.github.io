@@ -34,15 +34,11 @@
 }
 
 .header-icon{
-	display: block;
-	margin-left: auto;	
-	margin-right: auto;
 	width:5vw;
 }
-.icon-div{
+.icon-div-center{
 	display:flex;
-	
-	
+	justify-content: center;	
 }
 .icon-size{
 	width:5vw;
