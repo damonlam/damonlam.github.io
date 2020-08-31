@@ -5,37 +5,43 @@ body{
     margin-right: 5vw;
 }
 .content{
-    /* width:100%; */
+    width:100%;
     margin-left: auto;
     margin-right: auto;
     
 }
 .container {
     display:grid;
-    grid-template-rows: auto auto;
-    
+    grid-template-rows: 100vh 100vh;
 }
 .sidebar{
-    /* width:100%; */
+    width:100%;
     /* display:flex; */
     margin-left: auto;
     margin-right: auto;
-    
+    display:flex;
+    justify-content: center;
 }
 .header-icon-div{
-    /* width:100%; */
+    width:100%;
 
 
 }
 
 
 .logo{
-    /* width: 100%; */
+    display:flex;
+    justify-content:center;
    
 }
 #logo-size{
     width:20vw;
+    
 }
 #icon-size{
     width:50vw;
+}
+.logo div{
+    margin-left:auto;
+    margin-right:auto;
 }
