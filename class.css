@@ -60,7 +60,9 @@
 	display:flex;
 	position:fixed;
 	/* margin-top:2vw; */
-
+}
+.logo_mobile{
+	display:none;
 }
 
 .normal-link{
