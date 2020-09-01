@@ -32,9 +32,9 @@ h2{
 	font:2vw avenir, helvetica;
 }
 
-@media screen and (max-device-width: 768px){
+@media only screen and (max-device-width: 768px){
 body{
-	
+	overflow-x: hidden;
 	/* margin-top: 3vw; */
 	margin-left: 5vw;
 	margin-bottom: 20vw;

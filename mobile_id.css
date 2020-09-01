@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 768px){
+@media only screen and (max-device-width: 768px){
     #nav{
 	    position: initial;
 	    font:20px avenir, helvetica;
