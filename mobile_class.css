@@ -1,18 +1,22 @@
 @media screen and (max-device-width: 1250px){
     .container { 
         /* justify-content: center; */
+        /* width:90vw; */
         
     }
     .sidebar {
-        width:100%;
-        height:25vw;
-        display: grid;
+        width:90%;
+        height:auto;
+        display: flex;
         grid-template-columns: 50% 50%;
         position: fixed;
         top:0px;
         background: white;
-        box-shadow: 0 0 3px 0px white;
-        padding-top:2vw;
+        box-shadow: 0 0 6px 0px white;
+        /* padding-top: 5px;
+        padding-bottom:5px; */
+        align-content: center;
+        opacity: 95%;
     }
     .content {
         position:initial;
@@ -40,6 +44,7 @@
         align-items: center;
         width:100%;
         height:100%;
+        padding:13px 0px 2px 0px;
         /* display:none; */
     }
     .nav-home{
@@ -66,5 +71,20 @@
         width:20vw;
         height:20vw;
         display:block;
+    }
+    /* .burger{
+        display:flex;
+        align-content: center;
+    } */
+    .burger{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 2%;
+    }
+    .burger div{
+        width:35px;
+        height:5px;
+        background-color:#FFDD2A;
+        margin:8px 0px 8px 0px;
     }
 }
