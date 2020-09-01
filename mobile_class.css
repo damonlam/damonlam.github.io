@@ -2,7 +2,7 @@
     .container { 
         /* justify-content: center; */
         display:grid;
-        grid-template-rows: 90vh 100vh;
+        grid-template-rows: 80vh 100vh;
     }
     .sidebar {
         width:100%;
@@ -12,7 +12,7 @@
     .content {
         position:initial;
         display:block;
-        margin-bottom: 10vh;
+        /* margin-bottom: 10vh; */
     }
     .content-canvas{
         /* margin-top: -5vw; */

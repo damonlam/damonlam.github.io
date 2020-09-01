@@ -14,11 +14,11 @@ let list2 = document.createElement('li');
 let list3 = document.createElement('li');
 let list4 = document.createElement('li');
  
-list0.innerHTML = "<a href='index.html'>" + page0Title +"</a>";
-list1.innerHTML = "<a href='about.html'>" + page1Title +"</a>";
-list2.innerHTML = "<a href='stream.html'>" + page2Title +"</a>";
-list3.innerHTML = "<a href='develop.html'>" + page3Title +"</a>";
-list4.innerHTML = "<a href='contact.html'>" + page4Title +"</a>";
+list0.innerHTML = "<a href='damonlam.github.io/index'>" + page0Title +"</a>";
+list1.innerHTML = "<a href='damonlam.github.io/about'>" + page1Title +"</a>";
+list2.innerHTML = "<a href='damonlam.github.io/stream'>" + page2Title +"</a>";
+list3.innerHTML = "<a href='damonlam.github.io/develop'>" + page3Title +"</a>";
+list4.innerHTML = "<a href='damonlam.github.io/contact'>" + page4Title +"</a>";
 
 
 document.getElementById('nav').appendChild(list0);
