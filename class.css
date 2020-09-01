@@ -59,9 +59,13 @@
 .logo{
 	display:flex;
 	position:fixed;
-	/* margin-top:2vw; */
+	
+	/* display:none; */
 }
 .logo_mobile{
+	/* display:flex;
+	position:fixed; */
+
 	display:none;
 }
 

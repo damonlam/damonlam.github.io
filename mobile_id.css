@@ -8,8 +8,13 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+   #about-icon{
+       margin-left:0px;
+       display:flex;
+       justify-content: center;
+   }
     #logo-size{
-        width: 50vw;
+        width: 20vw;
     }
     .header-icon img{
     
