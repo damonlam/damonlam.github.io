@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 1250px){
+@media screen and (max-device-width: 768px){
     #nav{
 	    position: initial;
 	    font:20px avenir, helvetica;
@@ -16,7 +16,8 @@
     #logo-size{
         width: 17vw;
     }
-    .header-icon img{
-    
+
+    #mobile-content{
+        margin-top: 40vw;
     }
 }

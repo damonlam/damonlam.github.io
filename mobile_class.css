@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 1250px){
+@media screen and (max-device-width: 768px){
     .container { 
         /* justify-content: center; */
         /* width:90vw; */
@@ -24,6 +24,7 @@
         margin-top: 30vw;
         /* margin-bottom: 10vh; */
     }
+    
     .content-canvas{
         /* margin-top: -5vw; */
         /* display:flex; */
@@ -83,7 +84,7 @@
     }
     .burger div{
         width:35px;
-        height:5px;
+        height:4px;
         background-color:#FFDD2A;
         margin:8px 0px 8px 0px;
     }

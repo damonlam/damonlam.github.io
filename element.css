@@ -32,7 +32,7 @@ h2{
 	font:2vw avenir, helvetica;
 }
 
-@media screen and (max-device-width: 1250px){
+@media screen and (max-device-width: 768px){
 body{
 	
 	/* margin-top: 3vw; */
