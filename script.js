@@ -69,11 +69,15 @@ function unsplashLink(unsplashSelect){
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-else');
-    // const navLink = document.querySelectorAll('.nav-home li');
+    const navLink = document.querySelectorAll('.nav-else li');
     //toggle nav
 
     burger.addEventListener('click',() =>{
         nav.classList.toggle('nav-active');
+    });
+    navLinks.forEach((link, index) =>{
+        link.style.animation = `navLinkFade 0.5 ease forwards ${index/5}s`
+        console.log(index/5);
     });
 //     //animate links
 //     navLinks.forEach(link, index=>{
@@ -82,4 +86,5 @@ const navSlide = () => {
 //     });
 }
 
-navSlide();
+    navSlide();
+

@@ -27,4 +27,12 @@
     #mobile-content{
         margin-top: 40vw;
     }
+    #hello{
+        /* position: absolute; */
+        z-index: 900;
+    }
+    #hi{
+        transform: initial;
+        font-size: 10vh;
+    }
 }
