@@ -27,7 +27,6 @@
         margin-top: 10vh;
         margin-left: 7vw;
         margin-right: 7vw;
-        /* margin-bottom: 10vh; */
     }
     
     .content-canvas{
@@ -52,11 +51,12 @@
         height:100%;
         padding:13px 0px 2px 0px;
         /* display:none; */
-        margin-left: 5vw;
+        margin-left: 4vw;
     }
     .nav-else{
-        width: 90vw;
+        width: 95%;
         position: absolute;
+        left:0px;
         height:100vh;
         top: 9vh;
         background:linear-gradient(#f8f8f8fa, white);
