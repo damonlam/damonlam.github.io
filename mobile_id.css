@@ -1,7 +1,14 @@
-@media only screen and (max-device-width: 900px){
+@media only screen and (max-width: 900px){
     #nav{
-	    position: initial;
-	    font:20px avenir, helvetica;
+	    /* position: initial; */
+        font:20px avenir, helvetica;
+        text-indent:none;
+	    margin-left:0px;
+	    margin-top:0vh;
+	    position:fixed;
+
+
+	font:20px avenir, helvetica;
     }
     #about-text{
         width: 100%;
@@ -14,7 +21,7 @@
        justify-content: center;
    }
     #logo-size{
-        width: 15vw;
+        width: 9vh;
     }
 
     #mobile-content{

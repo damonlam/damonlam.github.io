@@ -7,7 +7,7 @@
 } */
 .nav-home a:hover, a:focus{
 	color:white;
-	margin-left: 5px;
+	margin-left: 3px;
 	font-size: 100%;
 	transition: 0.2s;
 	background-color:#F2C252;
@@ -16,7 +16,7 @@
 
 .nav-else a:hover, a:focus{
 	color:white;
-	margin-left:5px;
+	margin-left:3px;
 	font-size:100%;
 	transition: .2s;
 	background-color:#F2C252;

@@ -67,8 +67,8 @@ function unsplashLink(unsplashSelect){
 }
 
 const navSlide = () => {
-    const burger = document.querySelector('.logo');
-    const nav = document.querySelector('.nav-home');
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-else');
     // const navLink = document.querySelectorAll('.nav-home li');
     //toggle nav
 
