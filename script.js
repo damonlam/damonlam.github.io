@@ -78,13 +78,9 @@ const navSlide = () => {
     });
 
 }
-//     //animate links
-//     navLinks.forEach(link, index=>{
-//         link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7}s`
-//         console.log(index / 7);
-//     });
-    
+navSlide();
 
-
-    navSlide();
-
+function bottom() {
+    document.getElementById( 'image-magnifier' ).scrollIntoView();
+    // window.setTimeout( function () { top(); }, 2000 );
+}
