@@ -5,7 +5,7 @@
         
     }
     .sidebar {
-        width:100%;
+        width:100vw;
         height:auto;
         display: flex;
         grid-template-columns: 50% 50%;
@@ -54,7 +54,7 @@
         margin-left: 4vw;
     }
     .nav-else{
-        width: 100%;
+        width: 100vw;
         position: absolute;
         right:0px;
         height:100vh;
@@ -123,10 +123,20 @@
     }
 
     .slideshow{
-        display: initial;
-        /* grid-template-columns: 1;
-        grid-template-rows: 85% 15%; */
+        display: grid;
+        grid-template-columns: 90vw;
+        grid-template-rows: 85% 15%;
+        
     }
+    .thumbnail{
+        display: inline-block;
+    }
+    .slider{
+        height: 5vh;
+        width: auto;
+        margin-left: 5px;
+    }
+    
     .icon-div-center{
         display:flex;
         justify-content: center;	

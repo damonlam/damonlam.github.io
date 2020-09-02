@@ -34,4 +34,19 @@
         transform: initial;
         font-size: 15vh;
     }
+    #image-thumbnail{
+        display: flex;
+        overflow-x: auto;
+        width: auto;
+        height: 70vh;
+        grid-row: 2;
+        bottom: 0px;
+    }
+    #image-magnifier{
+        width: 90vw;
+        height: 50vh;
+        position: fixed;
+        grid-row: 1;
+
+    }
 }

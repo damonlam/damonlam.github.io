@@ -53,8 +53,8 @@
 	margin-bottom: 5vh;
 }
 #image-magnifier{
-	position: -webkit-sticky;
-	position: sticky;
+	/* position: -webkit-sticky;
+	position: sticky; */
 	/* position: fixed; */
 	object-fit: contain;
 	width:100%;

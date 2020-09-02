@@ -83,7 +83,6 @@
 .slideshow{
 	display: grid;
 	grid-template-columns: auto 100%;
-	
 }
 
 .slider{
