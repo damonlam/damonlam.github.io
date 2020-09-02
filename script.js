@@ -82,5 +82,5 @@ navSlide();
 
 function bottom() {
     document.getElementById( 'image-magnifier' ).scrollIntoView();
-    // window.setTimeout( function () { top(); }, 2000 );
+    window.setTimeout( function () { top(); }, 2000 );
 }
