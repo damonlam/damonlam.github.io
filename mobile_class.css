@@ -18,7 +18,7 @@
         padding-bottom:5px; */
         align-content: center;
         opacity: 97%;
-        z-index: 950;
+        z-index: 1000;
     }
     .content {
         width:86vw;
@@ -54,29 +54,29 @@
         margin-left: 4vw;
     }
     .nav-else{
-        width: 95%;
+        width: 100%;
         position: absolute;
-        left:0px;
+        right:0px;
         height:100vh;
         top: 9vh;
         background:linear-gradient(#f8f8f8fa, white);
         display: flex;
         flex-direction: column;
         text-align: right;
-        margin-right:10vw;
         justify-content: right;
         transform: translateX(100%);
-        transition: transform 0.25s ease-in;
-        
+        transition: transform 0.3s ease-in;
+        z-index: 925;
     }
-    .nav-home li{
+    /* .nav-home li{
         opacity:0;
-    }
+    
+    } */
 
     .nav-else li{
         opacity: 100%;
         display: block;
-        margin-right: 10vw;
+        margin-right: 7vw;
     }
     .nav-active{
         transform: translateX(0%);
