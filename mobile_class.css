@@ -107,7 +107,7 @@
         margin:7px 0px 7px 0px;
         transition: all 0.3s ease;
     }
-    @keyframes navLinkFade{
+    /* @keyframes navLinkFade{
         from{
             opacity: 0;
             transform: translateX(50px);
@@ -115,7 +115,7 @@
             opacity:1;
             transform: translate(0px);
         }
-    }
+    } */
     .header-icon{
         width:15vw;
         margin-left: auto;
@@ -123,8 +123,9 @@
     }
 
     .slideshow{
-        display: grid;
-        grid-template-columns: ;
+        display: initial;
+        /* grid-template-columns: 1;
+        grid-template-rows: 85% 15%; */
     }
     .icon-div-center{
         display:flex;
