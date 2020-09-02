@@ -23,7 +23,6 @@
     #logo-size{
         width: 7vh;
     }
-
     #mobile-content{
         margin-top: 40vw;
     }
@@ -33,6 +32,6 @@
     }
     #hi{
         transform: initial;
-        font-size: 10vh;
+        font-size: 15vh;
     }
 }

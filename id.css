@@ -9,7 +9,8 @@
 
 #tagline{
 	font:5vw futura, helvetica;
-	color:#81DAB9;
+	color:olive;
+	/* color:#81DAB9; */
 	margin-top:-5vw;
 }
 #end-buffer{
