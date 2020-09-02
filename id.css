@@ -74,7 +74,6 @@
 	/* position: sticky; */
 	position: fixed;	
 }
-
 #photostream-text{
 	/* margin-top:3vh;
 	margin-bottom:3vh; */
@@ -85,6 +84,9 @@
 	position: sticky;
 	position: fixed;
 	/* border: 1px solid grey;	 */
+}
+#mobile_spacer{
+	display:none;
 }
 #not-nav{
 	display:inline;

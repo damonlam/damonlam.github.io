@@ -41,7 +41,7 @@
         height: auto;
         grid-row: 2;
         position: fixed;
-        bottom: 0px;
+        bottom: -2vh;
         margin-left:0px;
         margin-right:0px;
     }

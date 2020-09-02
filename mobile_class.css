@@ -136,7 +136,9 @@
         width: auto;
         margin-left: 5px;
     }
-    
+    .mobile-spacer{
+        margin-bottom: 2vh;
+    }
     .icon-div-center{
         display:flex;
         justify-content: center;	
