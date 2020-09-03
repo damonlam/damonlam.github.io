@@ -52,6 +52,7 @@
         padding:13px 0px 2px 0px;
         /* display:none; */
         margin-left: 4vw;
+        margin-top: -.5vw;
     }
     .nav-else{
         width: 200vw;
