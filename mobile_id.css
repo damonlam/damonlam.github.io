@@ -41,7 +41,7 @@
         height: auto;
         grid-row: 2;
         position: fixed;
-        bottom: -2vh;
+        top: 79vh;
         margin-left:0px;
         margin-right:0px;
         z-index: 950;
