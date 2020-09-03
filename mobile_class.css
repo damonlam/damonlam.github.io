@@ -158,9 +158,10 @@
     } */
     .name-card{
         width: 100%;
-        /* position: fixed; */
+        position: fixed;
         bottom: 10vh;
-        line-height: 500%;
+        left: 10vw;
+        line-height: 1.5;
     }
     .normal-link{
         font:12vw avenir, helvetica;
