@@ -48,7 +48,7 @@ function retract(imageDeselect){
     console.log(imageDeselect);
     let showDiv = document.getElementById('image-magnifier');
     // let description = document.getElementById('photostream-text').innerHTML;
-    showDiv.innerHTML = "<div id='photostream-text' class='header-icon'> <div class='icon-div'> <img class='icon-size' src='icn/cone_of_possibility.png' alt=''></div><p>This is an aggregate photostream pulled from my <a id='not-nav' target='_blank' href='https://unsplash.com/dayday95'>Unsplash</a>, <a id='not-nav' target='_blank' href='https://www.instagram.com/dayday95/'>Instagram</a> and film archive.<br><br>Updates will be made sporadically from time to time. <br><br>&#128270; tap or hover over thumbnail to enlarge</p></div>";
+    showDiv.innerHTML = "<div id='photostream-text' class='header-icon'> <div class='icon-div'> <img class='icon-size' src='icn/cone_of_possibility.png' alt=''></div><p>This is an aggregate photostream pulled from my <a id='not-nav' target='_blank' href='https://unsplash.com/dayday95'>Unsplash</a>, <a id='not-nav' target='_blank' href='https://www.instagram.com/dayday95/'>Instagram</a> and film archive.<br><br>Updates will be made sporadically from time to time. <br><br>Tap or hover over thumbnail to enlarge &#128270;</p></div>";
     document.getElementById('image-magnifier').appendChild(showDiv);
     // let descriptionTag = document.getElementById('photostream-text');
     //     description = descriptionTag.innerHTML;
