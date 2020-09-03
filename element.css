@@ -35,6 +35,7 @@ h2{
 @media only screen and (max-width: 900px){
 body{
 	overflow-x: hidden;
+	/* overflow-Y: hidden; */
 	/* margin-top: 3vw; */
 	margin-left: 0vw;
 	margin-bottom: 0vw;
