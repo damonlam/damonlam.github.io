@@ -59,7 +59,7 @@
         position: absolute;
         right:0px;
         height:100vh;
-        top: 8.5vh;
+        top: 1.7cm;
         background:linear-gradient(to right,#f8f8f800,#f8f8f8ed, #f8f8f8);
         display: flex;
         flex-direction: column;
@@ -68,7 +68,6 @@
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
         z-index: 925;
-        margin-top: -10px;
     }
     /* .nav-home li{
         opacity:0;
@@ -88,10 +87,12 @@
         transform: rotate(-45deg) translate(-7px, 7px);
     }
     .toggle .line2{
-        opacity: 0;
+        transform: rotate(45deg);
+        /* opacity: 0; */
     }
     .toggle .line3{
-        transform: rotate(45deg) translate(-7px, -7px);
+        /* transform: rotate(45deg) translate(-7px, -7px); */
+        opacity: 0;
     }
     .burger{
         margin-top: auto;
@@ -145,8 +146,8 @@
         justify-content: center;	
     }
     .icon-size{
-        width:12vw;
-        height:12vw;
+        width: 1.2cm;
+        height: 1.2cm;
         display:block;
     }
     /* .burger{

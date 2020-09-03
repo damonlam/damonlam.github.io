@@ -21,7 +21,8 @@
        justify-content: center;
    }
     #logo-size{
-        width: 7vh;
+        max-width: 1.4cm;
+        /* max-width: 7vh; */
     }
     #mobile-content{
         margin-top: 40vw;
