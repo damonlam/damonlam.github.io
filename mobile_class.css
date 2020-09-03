@@ -159,7 +159,7 @@
     .name-card{
         width: 100%;
         position: fixed;
-        bottom: 10vh;
+        bottom: 10vw;
         left: 10vw;
         line-height: 1.5;
     }

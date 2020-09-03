@@ -107,6 +107,7 @@
 	/* justify-content: center; */
 	/* align-content: center; */
 	width:20vw;
+	transform: translateX(-5vw);
 
 }
 .burger div{
