@@ -23,15 +23,14 @@
     .content {
         width:86vw;
         position:initial;
-        display:block;
+        /* display:block; */
         margin-top: 10vh;
         margin-left: 7vw;
         margin-right: 7vw;
     }
     
     .content-canvas{
-        /* margin-top: -5vw; */
-        /* display:flex; */
+        height: 80vh;
         align-items: center;
         justify-content: center;
     }
@@ -102,7 +101,7 @@
         cursor: pointer;
     }
     .burger div{
-        width:30px;
+        width:27px;
         height:3px;
         /* background-color:#FFDD2A; */
         background-color:#eecd27;

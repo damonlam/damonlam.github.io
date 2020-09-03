@@ -15,7 +15,11 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-   #about-icon{
+    #page-message{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    #about-icon{
        margin-left:0px;
        display:flex;
        justify-content: center;
