@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 768px){
+@media screen and (max-device-width: 900px){
     .not-nav, a:hover, a:focus {
         margin-top: 0px;
         /* margin-left: 1px; */
