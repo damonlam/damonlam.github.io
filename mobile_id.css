@@ -21,8 +21,8 @@
     }
     #about-icon{
        margin-left:0px;
-       display:flex;
-       justify-content: center;
+       /* display:flex;
+       justify-content: center; */
    }
     #logo-size{
         max-width: 1.4cm;

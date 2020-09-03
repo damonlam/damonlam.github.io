@@ -118,9 +118,12 @@
         }
     } */
     .header-icon{
-        width:15vw;
-        margin-left: auto;
-        margin-right: auto;
+        /* width:15vw; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        width: 1.2cm;
+        height: 1.2cm;
+        display:block;
     }
 
     .slideshow{
@@ -140,18 +143,24 @@
     .mobile-spacer{
         margin-bottom: 2vh;
     }
-    .icon-div-center{
+    /* .icon-div-center{
         display:flex;
         justify-content: center;	
-    }
-    .icon-size{
+    } */
+    /* .icon-size{
         width: 1.2cm;
         height: 1.2cm;
         display:block;
-    }
+    } */
     /* .burger{
         display:flex;
         align-content: center;
     } */
-    
+    .name-card{
+        width: 100%;
+    }
+    .normal-link{
+        font-size:initial;
+	    line-height: 150%;
+    }   
 }
