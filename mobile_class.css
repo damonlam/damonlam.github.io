@@ -31,8 +31,8 @@
     
     .content-canvas{
         height: 80vh;
-        align-items: center;
-        justify-content: center;
+        /* align-items: center;
+        justify-content: center; */
     }
     .logo{
         /* display:flex;
@@ -158,9 +158,11 @@
     } */
     .name-card{
         width: 100%;
+        /* position: fixed; */
+        bottom: 10vh;
+        line-height: 500%;
     }
     .normal-link{
-        font-size:initial;
-	    line-height: 150%;
+        font:12vw avenir, helvetica;
     }   
 }

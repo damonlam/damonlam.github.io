@@ -70,8 +70,8 @@
 }
 
 .normal-link{
-	font:1.2vw avenir, helvetica;
-	line-height: 3vw;
+	font:5vw avenir, helvetica;
+	line-height: auto;
 }
 
 .photo-column{
