@@ -12,12 +12,12 @@
         grid-template-rows: auto auto;
         position: fixed;
         top:0px;
-        background:linear-gradient(white, #F8F8F8);
+        background:linear-gradient(rgba(255, 255, 255, 0.918), #F8F8F8);
         box-shadow: 0 0 4px 0px white;
         /* padding-top: 5px;
         padding-bottom:5px; */
         align-content: center;
-        opacity: 97%;
+        opacity: 100%;
         z-index: 1000;
     }
     .content {
@@ -126,7 +126,7 @@
         display: grid;
         grid-template-columns: 90vw;
         grid-template-rows: 85% 15%;
-        /* height: 100vh; */
+        height: 100vh;
     }
     .thumbnail{
         display: inline-block;
