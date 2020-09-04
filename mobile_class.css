@@ -24,15 +24,16 @@
         width:86vw;
         position:initial;
         /* display:block; */
-        margin-top: 10vh;
         margin-left: 7vw;
         margin-right: 7vw;
     }
-    
+    .add-top-margin{
+        margin-top: 10vh;
+    }
     .content-canvas{
-        height: 80vh;
-        /* align-items: center;
-        justify-content: center; */
+        
+        align-items: center;
+        justify-content: center;
     }
     .logo{
         /* display:flex;
@@ -158,13 +159,20 @@
         align-content: center;
     } */
     .name-card{
-        width: 100%;
-        position: fixed;
-        bottom: 10vw;
-        left: 15vw;
-        line-height: 1.5;
+        width: auto;
+        /* position: fixed; */
+        /* bottom: 10vw;
+        left: 15vw; */
+        /* line-height: 1.5; */
+        transform: none;
     }
     .normal-link{
-        font:12vw avenir, helvetica;
-    }   
+        font:3em avenir, helvetica;
+        
+    }  
+    .centre{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
 }

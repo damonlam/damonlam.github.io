@@ -102,4 +102,8 @@
 #mobile-home{
 	display: none;
 }
+#contact-icon{
+	width: 5vw;
+	height: 5vw;
+}
 }
