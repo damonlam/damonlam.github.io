@@ -15,10 +15,10 @@ let list3 = document.createElement('li');
 let list4 = document.createElement('li');
  
 list0.innerHTML = "<a href='index.html'>" + page0Title +"</a><br>";
-list1.innerHTML = "<a href='about.html'>" + page1Title +"</a><br>";
-list2.innerHTML = "<a href='stream.html#image-thumbnail'>" + page2Title +"</a><br>";
-list3.innerHTML = "<a href='develop.html'>" + page3Title +"</a><br>";
-list4.innerHTML = "<a href='contact.html'>" + page4Title +"</a>";
+list1.innerHTML = "<a href='https://www.obscuriam.com/about'>" + page1Title +"</a><br>";
+list2.innerHTML = "<a href='https://www.obscuriam.com/stream'>" + page2Title +"</a><br>";
+list3.innerHTML = "<a href='https://www.obscuriam.com/develop'>" + page3Title +"</a><br>";
+list4.innerHTML = "<a href='https://www.obscuriam.com/contact'>" + page4Title +"</a>";
 
 
 document.getElementById('nav').appendChild(list0);
