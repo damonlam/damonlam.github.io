@@ -53,33 +53,6 @@
         margin-left: 4vw;
         margin-top: -.5vw;
     }
-    .mobile-home{
-        width:86vw;
-        height:80vh;
-        display: flex;
-        justify-content: center;
-
-    }
-    div.mobile-home img{
-        align-self: center;
-    }
-    .home-logo-setting{
-        opacity:0%;
-        max-width:1.4cm;
-    }
-    .mobile-home-logo{
-        width: 300px;
-
-    }
-    /* .home-logo-size{
-        width:60%;
-        height: auto;
-        /* justify-self: center; */
-    } */
-    .home-icon{
-        display: flex;
-        justify-content: center;
-    }
     .nav-else{
         width: 200vw;
         position: absolute;
@@ -187,10 +160,10 @@
         width: 100%;
         position: fixed;
         bottom: 10vw;
-        left: 10vw;
+        left: 15vw;
         line-height: 1.5;
     }
     .normal-link{
         font:12vw avenir, helvetica;
-    }
+    }   
 }

@@ -92,11 +92,16 @@
 .saberLink a:hover, a:focus{
 	/* color:white; */
 	/* margin-left:5px; */
-	/* font-size:100%;
-	transition: .2s; */
+	font-size:100%;
+	transition: .2s;
 	/* background-color:#F2C252; */
 	/* padding:3px 40vw 3px 6px; */
 }
+
+/* .contact-canvas{
+	flex-wrap: wrap;
+	align-items: center;
+} */
 .name-card{
 	
 	/* justify-content: center; */
@@ -115,3 +120,8 @@
 	display: none;
 }
 }
+/* @media screen and (max-width: 1024px){
+	.nav-home{
+		width: 60%;
+	}
+}*/
