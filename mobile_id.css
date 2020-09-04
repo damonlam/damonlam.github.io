@@ -78,4 +78,18 @@
         margin-left: 3vw;
         /* border: 1px solid grey;	 */
     }
+    #desktop-home{
+        display: none;
+    }
+    #mobile-home{
+        display: block;
+        width: 100%;
+        height: 50vh;
+        bottom: 0px;
+        justify-content: center;
+        align-content: center;
+    }
+    div#mobile-home img{
+        width: 300px;
+    }
 }

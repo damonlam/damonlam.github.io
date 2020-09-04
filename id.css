@@ -1,3 +1,4 @@
+@media only screen and (min-width: 901px){
 #logo-size{
 	width:17vw;
 }
@@ -97,4 +98,8 @@
 }
 #about-icon{
 	margin-left:8%;
+}
+#mobile-home{
+	display: none;
+}
 }
