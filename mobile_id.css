@@ -92,4 +92,7 @@
     div#mobile-home img{
         width: 300px;
     }
+    #home-logo-setting{
+        opacity: 0%;
+    }
 }
