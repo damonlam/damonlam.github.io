@@ -132,7 +132,7 @@
         display: grid;
         grid-template-columns: 90vw;
         grid-template-rows: 85% 15%;
-        height: 150vh;
+        height: 200vh;
     }
     .thumbnail{
         display: inline-block;
