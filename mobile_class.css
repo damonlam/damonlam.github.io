@@ -60,7 +60,7 @@
         right:0px;
         height:100vh;
         top: 1.7cm;
-        background:linear-gradient(to right,#f8f8f800,#f8f8f8ed, #f8f8f8);
+        background:linear-gradient(to right,#f8f8f800,#f8f8f8df, #f8f8f8);
         display: flex;
         flex-direction: column;
         text-align: right;
