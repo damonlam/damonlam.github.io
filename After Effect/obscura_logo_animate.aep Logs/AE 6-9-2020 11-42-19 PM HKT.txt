@@ -1,0 +1,1 @@
+  6/9/2020 11:42:19 PM HKT: Starting composition “Final”.  Output To: /Users/damonlam/Documents/GitHub/damonlam.github.io/After Effect/AE png sequence export/Final_[#####].png    6/9/2020 11:44:37 PM HKT: Finished composition “Final”.  Total Time Elapsed: 2 Min, 18 SecLog closed on 6/9/2020 at 11:44:37 PM HKT

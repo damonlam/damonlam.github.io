@@ -103,4 +103,10 @@
         width: 10vw;
         height: 10vw;
     }
+    #myVideo {
+        position: fixed;
+        max-width: 300px;
+        max-height: 300px;
+        transform: translateX(25px);
+      }
 }

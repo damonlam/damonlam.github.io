@@ -69,6 +69,9 @@
         transition: transform 0.3s ease-in;
         z-index: 925;
     }
+    .home-nav{
+        background: linear-gradient(to right,#f8f8f800,#f8f8f891, #f8f8f88a);
+    }
     /* .nav-home li{
         opacity:0;
     
@@ -101,6 +104,9 @@
         margin-right: 7vw;
         display: block;
         cursor: pointer;
+    }
+    .burger-home{
+        opacity: 30%;
     }
     .burger div{
         width:27px;
