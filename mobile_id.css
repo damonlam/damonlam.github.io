@@ -96,6 +96,9 @@
     #home-logo-setting{
         opacity: 0%;
     }
+    #logo-size-home{
+        display: none;
+    }
     #home-logo{
         width: 300px;
     }

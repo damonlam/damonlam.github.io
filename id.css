@@ -2,6 +2,11 @@
 #logo-size{
 	width:17vw;
 }
+#logo-size-home{
+	width:17vw;
+	opacity: 0%;
+}
+
 #hi{
 	font:22vw futura, helvetica;
 	color:black;
@@ -105,5 +110,18 @@
 #contact-icon{
 	width: 5vw;
 	height: 5vw;
+}
+#desktop-home-video{
+	/* position: fixed; */
+	max-width: 300px;
+	max-height: 300px;
+	transform: translateY(20vh);
+	margin-left: 10vw;
+	/* transform: translateX(10vw); */
+	/* transform: translateX(20px); */
+  }
+div.content video{
+	justify-self: center;
+	align-self: center;
 }
 }
