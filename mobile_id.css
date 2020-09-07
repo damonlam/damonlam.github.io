@@ -109,4 +109,8 @@
         max-height: 250px;
         transform: translateX(20px);
       }
+    #corner-video{
+        position: fixed;
+        max-width: 1.4cm;
+    }
 }
