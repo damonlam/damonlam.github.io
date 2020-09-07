@@ -105,8 +105,8 @@
     }
     #myVideo {
         position: fixed;
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 250px;
+        max-height: 250px;
         transform: translateX(20px);
       }
 }
