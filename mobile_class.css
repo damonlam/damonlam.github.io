@@ -6,7 +6,7 @@
     }
     .sidebar {
         width:100vw;
-        height:auto;
+        height:19mm;
         display: flex;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto auto;
@@ -101,6 +101,7 @@
     .burger{
         margin-top: auto;
         margin-bottom: auto;
+        margin-top: 4vw;
         margin-right: 7vw;
         display: block;
         cursor: pointer;
