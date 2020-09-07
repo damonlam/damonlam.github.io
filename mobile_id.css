@@ -107,6 +107,6 @@
         position: fixed;
         max-width: 300px;
         max-height: 300px;
-        transform: translateX(25px);
+        transform: translateX(20px);
       }
 }
