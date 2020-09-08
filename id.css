@@ -115,13 +115,15 @@
 	/* position: fixed; */
 	max-width: 300px;
 	max-height: 300px;
-	transform: translateY(25vh);
 	margin-left: 10vw;
+	margin-top: 25vh;
+	/* transform: translateY(25vh);
+	margin-bottom:auto;
 	/* transform: translateX(10vw); */
 	/* transform: translateX(20px); */
   }
-div.content video{
-	justify-self: center;
-	align-self: center;
+#desktop-home{
+	display: flex;
+	align-content: center;
 }
 }
