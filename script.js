@@ -29,13 +29,16 @@ document.getElementById('nav').appendChild(list4);
 
 }
 
+let message = document.getElementById('image-magnifier').innerHTML;
+
 function expand(imageSelect){
     console.log(imageSelect);
     let chosenImage = imageSelect.id;
     let imageSource = document.getElementById(chosenImage).src;
     console.log(imageSource);
-
+    console.log(message);
     let showDiv = document.getElementById('image-magnifier');
+    console.log(message);
     showDiv.remove;
     showDiv.innerHTML = "<img id='big' style='justify-content:right' src='" + imageSource +"'>";
     document.getElementById('image-magnifier').appendChild(showDiv);
@@ -48,8 +51,10 @@ function retract(imageDeselect){
     if(x.matches){
     console.log(imageDeselect);
     let showDiv = document.getElementById('image-magnifier');
+    showDiv.remove;
     // let description = document.getElementById('photostream-text').innerHTML;
-    showDiv.innerHTML = "<div id='photostream-text' class='header-icon'> <div class='icon-div'> <img class='header-icon' src='icn/cone_of_possibility.png' alt=''></div><p>This is an aggregate photostream pulled from my <a id='not-nav' target='_blank' href='https://unsplash.com/dayday95'>Unsplash</a>, <a id='not-nav' target='_blank' href='https://www.instagram.com/dayday95/'>Instagram</a> and film archive.<br><br>Updates will be made sporadically from time to time. <br><br>Tap or hover over thumbnail to enlarge &#128270;</p></div>";
+    showDiv.innerHTML = message;
+    // "<div id='photostream-text' class='header-icon'> <div class='icon-div'> <img class='header-icon' src='icn/cone_of_possibility.png' alt=''></div><p>This is an aggregate photostream pulled from my <a id='not-nav' target='_blank' href='https://unsplash.com/dayday95'>Unsplash</a>, <a id='not-nav' target='_blank' href='https://www.instagram.com/dayday95/'>Instagram</a> and film archive.<br><br>Updates will be made sporadically from time to time. <br><br>Tap or hover over thumbnail to enlarge &#128270;</p></div>";
     document.getElementById('image-magnifier').appendChild(showDiv);
     }
     // let descriptionTag = document.getElementById('photostream-text');
@@ -83,8 +88,3 @@ const navSlide = () => {
 
 }
 navSlide();
-
-function bottom() {
-    document.getElementById( 'image-magnifier' ).scrollIntoView();
-    window.setTimeout( function () { top(); }, 2000 );
-}

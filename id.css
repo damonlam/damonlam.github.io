@@ -126,4 +126,10 @@
 	display: flex;
 	align-content: center;
 }
+#develop-icon{
+	width: 100%;
+	display: block;
+	padding-bottom: 1vh;
+}
+
 }
