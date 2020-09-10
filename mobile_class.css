@@ -156,8 +156,9 @@
         display: inline-block;
     }
     div.dev-magnifier img{
-        height: 68%;
-        transform: translateY(-2vh);
+        max-height: 68%;
+        max-width: 95%;
+        transform: translateY(-3vh);
     }
     .slider{
         height: 15vh;
