@@ -54,7 +54,7 @@ function expand(imageSelect){
     // let message = document.getElementById('image-magnifier').innerHTML;
     console.log(message);
     showDiv.remove;
-    showDiv.innerHTML = "<img id='big' style='justify-content:right' src='" + imageSource +"'>";
+    showDiv.innerHTML = "<img class='big' style='justify-content:right' src='" + imageSource +"'>";
     // document.getElementById('image-magnifier').appendChild(showDiv);
 }
 

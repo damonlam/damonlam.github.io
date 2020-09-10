@@ -140,14 +140,32 @@
         grid-template-columns: 90vw;
         grid-template-rows: 85% 15%;
         height: 200vh;
+        top: 2.5cm;
+    }
+    .big{
+        max-width:100%;
+        max-height:82%;
+        /* object-fit: contain; */
+        /* align-items: center; */
+        /* display:inline-block; */
+        position: -webkit-sticky;
+        /* position: sticky; */
+        position: fixed;	
     }
     .thumbnail{
         display: inline-block;
+    }
+    div.dev-magnifier img{
+        height: 68%;
+        transform: translateY(-2vh);
     }
     .slider{
         height: 15vh;
         width: auto;
         margin-left: 5px;
+    }
+    .print-margin{
+        
     }
     .mobile-spacer{
         margin-bottom: 2vh;

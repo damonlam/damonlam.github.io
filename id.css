@@ -70,16 +70,7 @@
 	margin-top: -5vw;
 }
 
-#big{
-	max-width:60%;
-	max-height:90%;
-	/* object-fit: contain; */
-	/* align-items: center; */
-	/* display:inline-block; */
-	position: -webkit-sticky;
-	/* position: sticky; */
-	position: fixed;	
-}
+
 #photostream-text{
 	/* margin-top:3vh;
 	margin-bottom:3vh; */
