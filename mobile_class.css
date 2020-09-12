@@ -139,7 +139,7 @@
         display: grid;
         grid-template-columns: 90vw;
         grid-template-rows: 85% 15%;
-        height: 200vh;
+        height: 1000vh;
         top: 2.5cm;
     }
     .big{
