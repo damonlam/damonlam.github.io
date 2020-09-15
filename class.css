@@ -85,7 +85,13 @@
 	display: grid;
 	grid-template-columns: auto 100%;
 }
-
+}
+.select-dim .thumbnail{
+	opacity: 50%;
+}
+.deselect-dim .thumbnail{
+	opacity: 100%;
+}
 .slider{
 	height:auto;
 	width:5vw;
