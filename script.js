@@ -22,7 +22,7 @@ list4.innerHTML = "<a href='contact.html'>" + page4Title +"</a>";
 
 
 document.getElementById('nav').appendChild(list0);
-document.getElementById('nav').appendChild(list1);
+// document.getElementById('nav').appendChild(list1);
 document.getElementById('nav').appendChild(list2);
 document.getElementById('nav').appendChild(list3);
 document.getElementById('nav').appendChild(list4);
