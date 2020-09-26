@@ -5,7 +5,7 @@ let page0Title = "home";
 let page1Title = "about";
 let page2Title = "stream";
 let page3Title = "develop";
-let page4Title = "contact";
+let page4Title = "contact & links";
 
 
 let list0 = document.createElement('li');
@@ -49,6 +49,7 @@ function expand(imageSelect){
     console.log(imageSelect);
     let chosenImage = imageSelect.id;
     let imageSource = document.getElementById(chosenImage).src;
+    document.getElementById(chosenImage).classList.add('dim');
     console.log(imageSource);
     let showDiv = document.getElementById('image-magnifier');
     // let message = document.getElementById('image-magnifier').innerHTML;
@@ -65,6 +66,8 @@ function retract(imageDeselect){
     if(x.matches){
     console.log(imageDeselect);
     let showDiv = document.getElementById('image-magnifier');
+    let leaveImage = imageDeselect.id;
+    document.getElementById(leaveImage).classList.remove('dim');
     showDiv.remove;
     showDiv.innerHTML = message;
         // document.getElementById('image-magnifier').appendChild(showDiv);
