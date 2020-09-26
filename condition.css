@@ -42,8 +42,8 @@
 
 
 .logo a:hover, a:focus{
-	margin-left:3px;
-	margin-top:3px;
+	margin-left:0px;
+	margin-top:0px;
 	transition: .3s;
 	background-color:none;
 	width:120%;
