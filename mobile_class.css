@@ -165,6 +165,9 @@
         width: auto;
         margin-left: 5px;
     }
+    .dim{
+        opacity: 100%;
+    }
     .print-margin{
         
     }
