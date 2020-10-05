@@ -71,7 +71,7 @@
 }
 
 .normal-link{
-	font:5vw avenir, helvetica;
+	font:3vw avenir, helvetica;
 	line-height: auto;
 }
 
@@ -120,7 +120,7 @@
 	
 	/* justify-content: center; */
 	/* align-content: center; */
-	width:20vw;
+	width:50vw;
 	transform: translateX(-5vw);
 
 }

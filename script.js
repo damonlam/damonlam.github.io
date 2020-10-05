@@ -5,7 +5,7 @@ let page0Title = "home";
 let page1Title = "about";
 let page2Title = "stream";
 let page3Title = "develop";
-let page4Title = "contact & links";
+let page4Title = "info";
 
 
 let list0 = document.createElement('li');
@@ -18,7 +18,7 @@ list0.innerHTML = "<a href='index.html'>" + page0Title +"</a><br>";
 list1.innerHTML = "<a href='about.html'>" + page1Title +"</a><br>";
 list2.innerHTML = "<a href='stream.html'>" + page2Title +"</a><br>";
 list3.innerHTML = "<a href='develop.html'>" + page3Title +"</a><br>";
-list4.innerHTML = "<a href='contact.html'>" + page4Title +"</a>";
+list4.innerHTML = "<a href='contact.html'>" + page4Title +"</a><br>";
 
 
 document.getElementById('nav').appendChild(list0);

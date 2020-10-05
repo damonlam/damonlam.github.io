@@ -122,5 +122,7 @@
 	display: block;
 	padding-bottom: 1vh;
 }
-
+#info-description{
+	padding-bottom: 1vw;
+}
 }
