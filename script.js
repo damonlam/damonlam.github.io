@@ -49,13 +49,14 @@ function expand(imageSelect){
     console.log(imageSelect);
     let chosenImage = imageSelect.id;
     let imageSource = document.getElementById(chosenImage).src;
+    let imageInfo = document.getElementById(chosenImage).alt;
     document.getElementById(chosenImage).classList.add('dim');
     console.log(imageSource);
     let showDiv = document.getElementById('image-magnifier');
     // let message = document.getElementById('image-magnifier').innerHTML;
     console.log(message);
     showDiv.remove;
-    showDiv.innerHTML = "<img class='big' style='justify-content:right' src='" + imageSource +"'>";
+    showDiv.innerHTML = "<img class='big' src='" + imageSource +"'>";
     // document.getElementById('image-magnifier').appendChild(showDiv);
 }
 

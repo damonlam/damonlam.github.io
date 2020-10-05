@@ -6,6 +6,11 @@
 	width:17vw;
 	opacity: 0%;
 }
+#info-content{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
 
 #hi{
 	font:22vw futura, helvetica;

@@ -74,11 +74,13 @@
         position: fixed;	
     }
     #photostream-text{
-        width:70%;
+        width:60%;
+        max-width: 300px;
         height:auto;
         display:inline-block;
         margin-left: 3vw;
         /* border: 1px solid grey;	 */
+        transform: translateX(-1vw);
     }
     #desktop-home{
         display: none;

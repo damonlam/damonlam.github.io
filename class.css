@@ -120,8 +120,8 @@
 	
 	/* justify-content: center; */
 	/* align-content: center; */
-	width:50vw;
-	transform: translateX(-5vw);
+	width: 50vw;
+	/* transform: translateX(5vw); */
 
 }
 .burger div{
