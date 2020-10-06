@@ -161,10 +161,13 @@
         margin-left: 5px;
     }
     .dim{
-        opacity: 100%;
+        opacity: 95%;
     }
-    .print-margin{
-        
+    .instruct-desktop{
+        display: none;
+    }
+    .instruct-mobile{
+        display:initial;
     }
     .mobile-spacer{
         margin-bottom: 2vh;

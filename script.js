@@ -69,6 +69,7 @@ function retract(imageDeselect){
     let showDiv = document.getElementById('image-magnifier');
     let leaveImage = imageDeselect.id;
     document.getElementById(leaveImage).classList.remove('dim');
+    // previousImage.classList.remove('dim');
     showDiv.remove;
     showDiv.innerHTML = message;
         // document.getElementById('image-magnifier').appendChild(showDiv);

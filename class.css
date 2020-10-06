@@ -89,6 +89,12 @@
 	opacity: 60%;
 	transition: 0.2s;
 }
+.instruct-desktop{
+	display: initial;
+}
+.instruct-mobile{
+	display: none;
+}
 .bright{
 	opacity:100%;
 	transition:1s;
