@@ -152,7 +152,7 @@
         display: inline-block;
     }
     div.dev-magnifier img{
-        max-height: 68%;
+        /* max-height: 68%; */
         max-width: 95%;
     }
     .slider{
