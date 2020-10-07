@@ -186,7 +186,7 @@
         align-content: center;
     } */
     .name-card{
-        width: auto;
+        max-width: 400px;
         /* position: fixed; */
         /* bottom: 10vw;
         left: 15vw; */
