@@ -111,16 +111,18 @@
 	/* position: fixed; */
 	max-width: 300px;
 	max-height: 300px;
-	margin-left: 10vw;
-	margin-top: 25vh;
+	margin-left: 4vw;
+	margin-top: 27vh;
 	/* transform: translateY(25vh);
 	margin-bottom:auto;
 	/* transform: translateX(10vw); */
 	/* transform: translateX(20px); */
   }
 #desktop-home{
+	height: 95vh;
 	display: flex;
 	align-content: center;
+	justify-content: center;
 }
 #develop-icon{
 	width: 100%;
