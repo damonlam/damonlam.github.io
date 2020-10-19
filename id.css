@@ -132,4 +132,7 @@
 #info-description{
 	padding-bottom: 1vw;
 }
+#swipe{
+	display:none;
+}
 }
