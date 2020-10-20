@@ -102,6 +102,7 @@
         width: 300px;
     }
     #contact-icon{
+        display:none;
         width: 10vw;
         height: 10vw;
     }
