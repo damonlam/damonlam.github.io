@@ -1,6 +1,7 @@
 @media only screen and (min-width: 901px){
 #logo-size{
 	width:17vw;
+	max-width: 350px;
 }
 #logo-size-home{
 	width:17vw;
@@ -112,7 +113,7 @@
 	max-width: 300px;
 	max-height: 300px;
 	margin-left: 4vw;
-	margin-top: 27vh;
+	margin-top: 25vh;
 	/* transform: translateY(25vh);
 	margin-bottom:auto;
 	/* transform: translateX(10vw); */
