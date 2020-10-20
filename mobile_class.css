@@ -187,10 +187,8 @@
     } */
     .name-card{
         width: 75vw;
-        /* position: fixed; */
-        /* bottom: 10vw;
-        left: 15vw; */
-        /* line-height: 1.5; */
+        margin-top: 30mm;
+        margin-bottom: 5mm;
         transform: none;
     }
     .normal-link{
