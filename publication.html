@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Check out my portfolio website!">
+		<meta name="author" content="Damon Lam">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+		<meta name="keywords" content="photography, art, photo, artanddesign, design, artwork, camera, camera obscura, obscura, obscuriam, obscure">
+
+		<title>Stream</title>
+
+		<link rel="icon" type="image/png" href="icn/cone_of_possibility.png"/>
+		<link rel="stylesheet" href="class.css">
+		<link rel="stylesheet" href="id.css">
+		<link rel="stylesheet" href="element.css">
+		<link rel="stylesheet" href="condition.css">
+		<link rel="stylesheet" href="mobile_class.css">
+		<link rel="stylesheet" href="mobile_id.css">
+</head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180196722-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180196722-1');
+</script>
+
+
+<style>
+	body{
+	background-color: #f8f8f8;
+	}
+</style>
+
+<body>
+<div class="container">
+	<div class="sidebar">
+
+		<div class="logo">
+			<a href="index.html"><video autoplay muted loop playsinline id="logo-size" >
+				<source src="vid/logo_stationary_desktop_alpha.mov" type="video/mp4">
+				<source src="vid/logo_stationary_desktop_fallback_grey.mp4" type="video/mp4">
+			  </video></a>
+			<!-- <a href="index.html"><img id="logo-size" src="icn/obscura_logo.png" alt="logo"></a>	 -->
+		</div>
+	
+		<div class="logo_mobile">
+			<a href="index.html"><video autoplay muted loop playsinline id="corner-video" >
+				<source src="vid/logo_stationary_alpha.mov" type="video/mp4">
+			  </video></a>
+			<!-- <a href="index.html"><img id="logo-size" src="icn/obscura_logo.png" alt="logo"></a>	 -->
+		</div>
+
+		<ul id="nav" class="nav-else"></ul>
+
+		<div class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+	</div>
+
+
+	<div class="content">
+
+
+		<!-- <p>to enlarge, hover over the photo you'd like to see &#128270;</p> -->
+
+		<div class="slideshow">
+
+			<div id="image-thumbnail">
+				<div>
+					<p id="swipe">swipe sideways to see more > </p>
+				</div>
+
+				<div class="thumbnail"><img class ="slider" id="5" onmouseover="expand(this)"  onmouseout="retract(this)"  src="pub/D6CE44A9-A8AF-4AB2-89F7-BBFCF77F5BF7-60637340-CA11-4718-9604-B0E3C7AFC2CF.JPG" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="4" onmouseover="expand(this)"  onmouseout="retract(this)"  src="pub/LEAF00011HK.HEIC" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="3" onmouseover="expand(this)"  onmouseout="retract(this)"  src="pub/INTR00001UK.heic" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="2" onmouseover="expand(this)"  onmouseout="retract(this)"  src="pub/ILLU00003US.png" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="1" onmouseover="expand(this)"  onmouseout="retract(this)"  src="pub/NCAR00022HK.png" alt=""></div>
+				<!-- <div class="thumbnail"><img class ="slider" id="" onmouseover="expand(this)"  onmouseout="retract(this)"  src="" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="" onmouseover="expand(this)"  onmouseout="retract(this)"  src="" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="" onmouseover="expand(this)"  onmouseout="retract(this)"  src="" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="" onmouseover="expand(this)"  onmouseout="retract(this)"  src="" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="" onmouseover="expand(this)"  onmouseout="retract(this)"  src="" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="" onmouseover="expand(this)"  onmouseout="retract(this)"  src="" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="" onmouseover="expand(this)"  onmouseout="retract(this)"  src="" alt=""></div>
+				<div class="thumbnail"><img class ="slider" id="" onmouseover="expand(this)"  onmouseout="retract(this)"  src="" alt=""></div> -->
+			</div>
+			
+
+				<div id="image-magnifier" class="content-canvas">
+					<div id="photostream-text" class="header-icon">
+						
+						
+						<div class="icon-div mobile-spacer">
+						<img class="header-icon" src="icn/cone_of_possibility.png" alt="">
+						</div>
+						
+						<p> 
+							This is an aggregate photostream pulled from my 
+							<a id="not-nav" target="_blank" href="https://unsplash.com/dayday95">Unsplash</a>, 
+							<a id="not-nav" target="_blank" href="https://www.instagram.com/dayday95/">Instagram</a> 
+							and film archive.
+							<br>
+							<br>
+							Updates will be made sporadically from time to time. 
+							<p class="instruct-desktop instruct-text">
+								Hover over thumbnails to enlarge.
+							</p>
+							<p class="instruct-mobile">
+								Tap on thumbnails to enlarge.
+							</p>
+						</p>
+						
+					</div>
+				</div>
+			
+		</div>
+	</div>
+</div>
+
+
+	<div style="height:100%" ></div>
+
+	<script src="script.js"></script>
+	<script>
+	navBar()
+	</script>
+</body>
+
+
+</html>
