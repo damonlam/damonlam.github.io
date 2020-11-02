@@ -4,7 +4,7 @@ function navBar(){
 let page0Title = "home";
 let page1Title = "about";
 let page2Title = "stream";
-let page3Title = "develop";
+let page3Title = "alchemy";
 let page4Title = "repository";
 let page5Title = "info";
 
