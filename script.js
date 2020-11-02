@@ -61,6 +61,7 @@ function expand(imageSelect){
     let imageSource = document.getElementById(chosenImage).src;
     let imageInfo = document.getElementById(chosenImage).alt;
     document.getElementById(chosenImage).classList.add('dim');
+    document.getElementById(chosenImage).setAttribute("title", imageInfo);
     console.log(imageSource);
     let showDiv = document.getElementById('image-magnifier');
     // let message = document.getElementById('image-magnifier').innerHTML;
