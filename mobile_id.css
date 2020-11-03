@@ -125,4 +125,7 @@
         margin-top: 5px;
     
     }
+    #meta-info{
+        display:none;
+    }
 }
