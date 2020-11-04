@@ -158,6 +158,16 @@
 	/* position: sticky; */
 	position: fixed;	
 }
+
+.small{
+	max-width:40%;
+	/* max-height:90%; */
+	/* object-fit: contain; */
+	/* align-items: center; */
+	/* display:inline-block; */
+	position: -webkit-sticky;
+	/* position: sticky; */
+	position: fixed;
 }
 /* @media screen and (max-width: 1024px){
 	.nav-home{
