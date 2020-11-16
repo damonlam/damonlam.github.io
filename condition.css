@@ -40,7 +40,9 @@
 	padding:0px 0px 5px 0px;
 }
 
-
+.slider a:hover a:focus{
+	width: 150%;
+}
 .logo a:hover, a:focus{
 	margin-left:0px;
 	margin-top:0px;

@@ -87,7 +87,9 @@
 }
 .dim{
 	opacity: 60%;
+	width: 150%;
 	transition: 0.2s;
+
 }
 .instruct-desktop{
 	display: initial;
