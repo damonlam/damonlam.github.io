@@ -61,6 +61,8 @@ function expand(imageSelect){
     let imageSource = document.getElementById(chosenImage).src;
     let imageInfo = document.getElementById(chosenImage).alt;
     document.getElementById(chosenImage).classList.add('dim');
+    document.getElementById(chosenImage).classList.remove('slider');
+    document.getElementById(chosenImage).classList.add('slider-expand');
     document.getElementById(chosenImage).setAttribute("title", imageInfo);
     console.log(imageSource);
     let showDiv = document.getElementById('image-magnifier');
@@ -80,6 +82,8 @@ function retract(imageDeselect){
     let showDiv = document.getElementById('image-magnifier');
     let leaveImage = imageDeselect.id;
     document.getElementById(leaveImage).classList.remove('dim');
+    document.getElementById(leaveImage).classList.remove('slider-expand');
+    document.getElementById(leaveImage).classList.add('slider');
     // previousImage.classList.remove('dim');
     showDiv.remove;
     showDiv.innerHTML = message;

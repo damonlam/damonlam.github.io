@@ -86,8 +86,7 @@
 	grid-template-columns: auto 100%;
 }
 .dim{
-	opacity: 60%;
-	width: 150%;
+	opacity: 75%;
 	transition: 0.2s;
 
 }
@@ -110,6 +109,12 @@
 .slider{
 	height:auto;
 	width:5vw;
+}
+.slider-expand{
+	width: 5vw;
+	height: auto;
+	transform: translateX(7px);
+	/* transform: rotateZ(5deg); */
 }
 .saberLink a:hover, a:focus{
 	/* color:white; */
