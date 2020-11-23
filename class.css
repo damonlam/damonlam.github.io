@@ -113,29 +113,15 @@
 .slider-expand{
 	width: 5vw;
 	height: auto;
-	transform: translateX(7px);
-	/* transform: rotateZ(5deg); */
+	transform: rotate(3deg) translateX(5px);
 }
 .saberLink a:hover, a:focus{
-	/* color:white; */
-	/* margin-left:5px; */
 	font-size:100%;
 	transition: .2s;
-	/* background-color:#F2C252; */
-	/* padding:3px 40vw 3px 6px; */
 }
 
-/* .contact-canvas{
-	flex-wrap: wrap;
-	align-items: center;
-} */
 .name-card{
-	
-	/* justify-content: center; */
-	/* align-content: center; */
 	width: 50vw;
-	/* transform: translateX(5vw); */
-
 }
 .burger div{
 	width: 28px;
