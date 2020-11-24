@@ -113,6 +113,11 @@
 .slider-expand{
 	width: 5vw;
 	height: auto;
+	transform: translateX(5px);
+}
+.pub-expand{
+	width: 5vw;
+	height: auto;
 	transform: rotate(3deg) translateX(5px);
 }
 .saberLink a:hover, a:focus{
