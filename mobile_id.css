@@ -122,8 +122,8 @@
         font-size: 12px;
         margin-left: 18px;
         margin-right: 10px;
-        margin-top: 5px;
-    
+        margin-top: 2.5vh;
+        display: none;
     }
     #meta-info{
         display:none;
