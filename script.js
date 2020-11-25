@@ -61,11 +61,9 @@ function expand(imageSelect){
     document.getElementById(chosenImage).setAttribute("title", imageInfo);
     console.log(imageSource);
     let showDiv = document.getElementById('image-magnifier');
-    // let message = document.getElementById('image-magnifier').innerHTML;
     console.log(message);
     showDiv.remove;
     showDiv.innerHTML = "<img class='big' src='" + imageSource +"'>";
-    // document.getElementById('image-magnifier').appendChild(showDiv);
 }
 
 function retract(imageDeselect){
@@ -88,14 +86,14 @@ function expandPub(imageSelect){
     document.getElementById(chosenImage).classList.add('dim');
     document.getElementById(chosenImage).classList.remove('slider');
     document.getElementById(chosenImage).classList.add('pub-expand');
+    console.log("hey there");
     document.getElementById(chosenImage).setAttribute("title", imageInfo);
     console.log(imageSource);
     let showDiv = document.getElementById('image-magnifier');
-    // let message = document.getElementById('image-magnifier').innerHTML;
-    console.log(message);
+    console.log(imageSource);
     showDiv.remove;
     showDiv.innerHTML = "<img class='big' src='" + imageSource +"'>";
-    // document.getElementById('image-magnifier').appendChild(showDiv);
+    console.log("function complete");
 }
 
 function retractPub(imageDeselect){
@@ -106,16 +104,12 @@ function retractPub(imageDeselect){
     document.getElementById(leaveImage).classList.remove('dim');
     document.getElementById(leaveImage).classList.remove('pub-expand');
     document.getElementById(leaveImage).classList.add('slider');
-    // previousImage.classList.remove('dim');
     showDiv.remove;
     showDiv.innerHTML = message;
-        // document.getElementById('image-magnifier').appendChild(showDiv);
 }
-let x = window.matchMedia("(min-width: 901px)")
+// let x = window.matchMedia("(min-width: 901px)")
 
 function unsplashLink(unsplashSelect){
     let chosenId = unsplashSelect.id;
     let unsplashURL = document.getElementById(unsplashSelect).src;
-
-
 }

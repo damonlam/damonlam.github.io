@@ -165,7 +165,12 @@
         width: auto;
         margin-left: 5px;
         transform: translateX(0px);
-
+    }
+    .pub-expand{
+        height: 15vh;
+        width: auto;
+        margin-left: 5px;
+        transform: translateX(0px);
     }
     .dim{
         opacity: 95%;
