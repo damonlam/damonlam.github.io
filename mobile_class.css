@@ -198,14 +198,14 @@
         align-content: center;
     } */
     .name-card{
-        width: 75vw;
-        margin-top: 30mm;
-        margin-bottom: 20mm;
+        width:80vw;
+        max-width: 500px;
+        margin-top: auto;
+        padding-bottom: 7vh;
         transform: none;
     }
     .normal-link{
         font:3em avenir, helvetica;
-        
     }  
     .centre{
         display: flex;
