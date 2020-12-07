@@ -107,9 +107,8 @@ function retractPub(imageDeselect){
     showDiv.remove;
     showDiv.innerHTML = message;
 }
-// let x = window.matchMedia("(min-width: 901px)")
 
-function unsplashLink(unsplashSelect){
-    let chosenId = unsplashSelect.id;
-    let unsplashURL = document.getElementById(unsplashSelect).src;
-}
+// function unsplashLink(unsplashSelect){
+//     let chosenId = unsplashSelect.id;
+//     let unsplashURL = document.getElementById(unsplashSelect).src;
+// }

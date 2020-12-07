@@ -167,8 +167,8 @@
 	/* position: sticky; */
 	position: fixed;
 }
-/* @media screen and (max-width: 1024px){
-	.nav-home{
-		width: 60%;
-	}
-}*/
+.magnify{
+	width: 2vw;
+	transform: translateY(.5vw);
+	padding-right: 1vw;
+}

@@ -164,16 +164,16 @@
         height: 15vh;
         width: auto;
         margin-left: 5px;
-        transform: translateX(0px);
+        transform: translateY(-4px);
     }
     .pub-expand{
         height: 15vh;
         width: auto;
         margin-left: 5px;
-        transform: translateX(0px);
+        transform: translateY(-4px);
     }
     .dim{
-        opacity: 95%;
+        opacity: 100%;
     }
     .instruct-desktop{
         display: none;
@@ -214,5 +214,10 @@
     }
     .disclaimer{
         /* display:none; */
+    }
+    .magnify{
+        width: 17px;
+        transform: translateY(.75vw);
+        padding-right: 2vw;
     }
 }
