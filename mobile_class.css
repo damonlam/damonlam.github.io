@@ -31,9 +31,13 @@
         margin-top: 10vh;
     }
     .content-canvas{
-        height:79vh;
+        /* height:79vh; */
         align-items: center;
         justify-content: center;
+        height: 100vh;
+    }
+    .mobile-home-spacer{
+        height: 100vh;
     }
     .logo{
         /* display:flex;
@@ -219,5 +223,14 @@
         width: 17px;
         transform: translateY(.75vw);
         padding-right: 2vw;
+    }
+    .desktop-load{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        /* outline: auto; */
+        margin-left: 0px;
+        transform: translateX(0px) translateY(0px);
     }
 }

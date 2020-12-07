@@ -111,7 +111,6 @@
         max-width: 250px;
         max-height: 250px;
         transform: translateX(18px);
-        margin-top: 2vh;
       }
     #corner-video{
         position: fixed;

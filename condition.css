@@ -1,10 +1,4 @@
- /* .nav a:hover, a:focus{
-	color:white;
-	margin-left:3px;
-	font-size:115%;
-	transition: .2s;
-	background-color:orange;
-} */
+
 .nav-home a:hover, a:focus{
 	color:white;
 	margin-left: 3px;
