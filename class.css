@@ -176,7 +176,7 @@
 	transform: translateX(-6vw) translateY(-5vw);
 }
 .desktop-load img{
-	position: absolute;
+	position: fixed;
 	align-self: center;
 	margin-top:auto;
 	margin-bottom:auto;

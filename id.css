@@ -138,7 +138,7 @@
 	display:none;
 }
 #loading{
-	position: absolute
+	position: fixed;
 }
 #home-body{
 	overflow: hidden;
