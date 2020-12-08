@@ -40,22 +40,22 @@
 	}
 </style>
 
-<div class="desktop-load" id="loading">
-	<img class="load-object rotate planet1" src="icn/solar system.webp" alt="">
-	<img class="load-object rotate-anti planet2" src="icn/2nd planet.webp" alt="">
-</div>
-
 
 <body id="home-body">
-	
+
+	<div class="desktop-load" id="loading">
+		<img class="load-object rotate planet1" src="icn/solar system.webp" alt="">
+		<img class="load-object rotate-anti planet2" src="icn/2nd planet.webp" alt="">
+	</div>
+
 	<div id="logo-container">
 		<div class="content" id="desktop-home">
 
-		<video autoplay muted loop playsinline id="desktop-home-video" >
-			<source src="vid/logo-home-alpha original.mov" type="video/mp4">
-			<source src="vid/logo-home-fallback.mp4" type="video/mp4">
-			<img src="icn/obscura_logo.png">
-		  </video>
+			<video autoplay muted loop playsinline id="desktop-home-video" >
+				<source src="vid/logo-home-alpha original.mov" type="video/mp4">
+				<source src="vid/logo-home-fallback.mp4" type="video/mp4">
+				<img src="icn/obscura_logo.png">
+		  	</video>
 
 		</div>	
 	
@@ -64,8 +64,6 @@
 			<video autoplay muted loop playsinline id="myVideo" >
 				<source src="vid/logo-home-alpha original.mov" type="video/mp4">
 				<source src="vid/logo-home-fallback.mp4" type="video/mp4">
-				<!-- <img src="icn/obscura_logo.png" title="Your browser is unable to load this part of the site">
-				Your device is unable to display this part of the website. -->
 			  </video>
 		</div>
 
@@ -86,11 +84,10 @@
 				<a href="index.html"><video autoplay muted loop playsinline id="corner-video" >
 					<source src="vid/logo_stationary_alpha.mov" type="video/mp4">
 				  </video></a>
-				  <!-- vid/logo_stationary_alpha.mov -->
 			</div>
 		
 			<ul id="nav" class="nav-else home-nav"></ul>
-			<!-- for some reason nav-home makes it so that the burger won't show in mobile ??? -->
+			
 			<div class="burger burger-home">
 				<div class="line1"></div>
 				<div class="line2"></div>
@@ -108,9 +105,10 @@
 		window.onload = function(){ 
 			document.getElementById("loading").style.display = "none";
 			document.getElementById("logo-container").style.display = "initial";
-			}
+		}
 
 		navBar()
+
 	</script>
 	
 </body>

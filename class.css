@@ -172,7 +172,6 @@
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	/* outline: auto; */
 	transform: translateX(-6vw) translateY(-5vw);
 }
 .desktop-load img{
@@ -182,7 +181,7 @@
 	margin-bottom:auto;
 }
 .rotate {
-	animation: rotation 25s infinite linear;
+	animation: rotation 20s infinite linear;
   }
   
   @keyframes rotation {
@@ -195,7 +194,7 @@
   }
 
   .rotate-anti {
-	animation: rotation-anti 13s infinite linear;
+	animation: rotation-anti 3s infinite linear;
   }
   
   @keyframes rotation-anti {
@@ -205,5 +204,18 @@
 	to {
 	  transform: rotate(359deg);
 	}
+  }
+  
+  .elliptical-orbit {
+	  animation: elliptical-orbit 10s infinite linear;
+  }
+
+  @keyframes elliptical-orbit {
+	  from {
+		  transform: translateX(0px);
+	  }
+	  to {
+		  transform: translateX(5vw);
+	  }
   }
   
