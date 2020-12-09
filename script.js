@@ -109,7 +109,3 @@ function retractPub(imageDeselect){
 }
 
 
-// function unsplashLink(unsplashSelect){
-//     let chosenId = unsplashSelect.id;
-//     let unsplashURL = document.getElementById(unsplashSelect).src;
-// }

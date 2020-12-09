@@ -181,7 +181,7 @@
 	margin-bottom:auto;
 }
 .rotate {
-	animation: rotation 20s infinite linear;
+	animation: rotation 30s infinite ease;
   }
   
   @keyframes rotation {
@@ -194,7 +194,7 @@
   }
 
   .rotate-anti {
-	animation: rotation-anti 3s infinite linear;
+	animation: rotation-anti 5s infinite linear;
   }
   
   @keyframes rotation-anti {
@@ -205,17 +205,16 @@
 	  transform: rotate(359deg);
 	}
   }
-  
-  .elliptical-orbit {
-	  animation: elliptical-orbit 10s infinite linear;
-  }
 
-  @keyframes elliptical-orbit {
-	  from {
-		  transform: translateX(0px);
-	  }
-	  to {
-		  transform: translateX(5vw);
-	  }
+  .logo-fade-in{
+  	animation: fadeIn ease 20s;
   }
   
+  @keyframes fadeIn {
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+  }

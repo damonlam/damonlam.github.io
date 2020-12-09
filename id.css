@@ -29,12 +29,7 @@
 }
 #nav{
 
-	text-indent:none;
 	margin-left:-20px;
-	/* margin-top:30vh; */
-	position:fixed;
-	position:-webkit-sticky;
-	position: sticky;
 	position: fixed;
 	bottom: 7vh;
 

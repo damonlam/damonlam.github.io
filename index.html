@@ -38,6 +38,10 @@
 	.logo-container{
 		display: hidden;
 	}
+	.nav-pre-load{
+		display: hidden;
+	}
+
 </style>
 
 
@@ -74,7 +78,7 @@
 	<div class="container">
 
 		
-		<div class="sidebar">
+		<div class="sidebar" id="">
 
 			<div class="home-logo">
 			<a href="index.html"><img id="logo-size-home" src="icn/obscura_logo.png" alt="logo"></a>	
@@ -86,7 +90,7 @@
 				  </video></a>
 			</div>
 		
-			<ul id="nav" class="nav-else home-nav"></ul>
+			<ul id="nav" class="nav-else home-nav nav-pre-load"></ul>
 			
 			<div class="burger burger-home">
 				<div class="line1"></div>
@@ -101,14 +105,18 @@
 
 	<script src="script.js"></script>
 	<script>
-		
+		navBar()
+		document.getElementById("nav").style.opacity = "0%";
+
 		window.onload = function(){ 
 			document.getElementById("loading").style.display = "none";
 			document.getElementById("logo-container").style.display = "initial";
+			document.getElementById("nav").style.opacity = "100%";
 		}
 
-		navBar()
+		console.log('hi there');
 
+		
 	</script>
 	
 </body>
