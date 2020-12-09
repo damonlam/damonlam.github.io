@@ -157,8 +157,8 @@
 	position: fixed;
 }
 .magnify{
-	width: 2vw;
-	transform: translateY(.5vw);
+	width: 1.5vw;
+	transform: translateY(.2vw);
 	padding-right: 1vw;
 }
 .load-object{
