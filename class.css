@@ -161,6 +161,9 @@
 	transform: translateY(.2vw);
 	padding-right: 1vw;
 }
+.superscript{
+	font-size: 50%;
+}
 .load-object{
 	margin-top: auto;
 	margin-bottom: auto;
