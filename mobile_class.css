@@ -233,4 +233,10 @@
         margin-left: 0px;
         transform: translateX(0px) translateY(0px);
     }
+    .load-object{
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 80vw;
+        /* max-width:400px; */
+    }
 }

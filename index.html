@@ -44,6 +44,15 @@
 	#burger{
 		display: none;
 	}
+	#planet1{
+		transform: rotate(10deg);
+	}
+	#planet2{
+		transform: rotate(5deg);
+	}
+	#planet3{
+		transform: rotate(350deg);
+	}
 
 </style>
 
@@ -51,8 +60,10 @@
 <body id="home-body">
 
 	<div class="desktop-load" id="loading">
-		<img class="load-object rotate planet1" src="icn/solar system.webp" alt="">
-		<img class="load-object rotate-anti planet2" src="icn/2nd planet.webp" alt="">
+		<img id="sun" class="load-object rotate-sun" src="icn/loader/sun.svg" alt="">
+		<img id="planet1" class="load-object rotate-1" src="icn/loader/1st.svg" alt="">
+		<img id="planet2"class="load-object rotate-2" src="icn/loader/2nd.svg" alt="">
+		<img id="planet3"class="load-object rotate-3" src="icn/loader/3rd.svg" alt="">
 	</div>
 
 	<div id="home-content">
@@ -126,7 +137,7 @@
 
 			setTimeout(() => {
 				document.getElementById("logo-container").style.display = "initial";
-			}, 1000);
+			}, 2000);
 
 			setTimeout(() =>{
 				document.getElementById("nav").style.display=('initial');

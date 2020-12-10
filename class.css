@@ -168,7 +168,7 @@
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 30vw;
-	max-width:150px;
+	/* max-width:400px; */
 }
 .desktop-load{
 	height: 100vh;
@@ -183,11 +183,11 @@
 	margin-top:auto;
 	margin-bottom:auto;
 }
-.rotate {
-	animation: rotation 30s infinite ease;
+.rotate-2 {
+	animation: rotation-2nd 20s infinite linear;
   }
   
-  @keyframes rotation {
+  @keyframes rotation-2nd {
 	from {
 	  transform: rotate(0deg);
 	}
@@ -196,11 +196,37 @@
 	}
   }
 
-.rotate-anti {
-	animation: rotation-anti 5s infinite linear;
+.rotate-sun {
+	animation: rotation-sun 5s infinite linear;
   }
   
-  @keyframes rotation-anti {
+  @keyframes rotation-sun {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
+
+  .rotate-1 {
+	animation: rotation-1st 10s infinite linear;
+  }
+  
+  @keyframes rotation-1st {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
+
+  .rotate-3 {
+	animation: rotation-3rd 50s infinite linear;
+  }
+  
+  @keyframes rotation-3rd {
 	from {
 	  transform: rotate(0deg);
 	}
