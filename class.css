@@ -196,7 +196,7 @@
 	}
   }
 
-  .rotate-anti {
+.rotate-anti {
 	animation: rotation-anti 5s infinite linear;
   }
   
@@ -209,15 +209,29 @@
 	}
   }
 
-  .logo-fade-in{
-  	animation: fadeIn ease 20s;
+.fade-in{
+  	animation: fadeIn 5s ease;
   }
   
   @keyframes fadeIn {
-	from{
-		opacity:0;
+	0% {
+		opacity: 0%;
 	}
-	to{
-		opacity:1;
+	100% {
+		opacity: 100%;
 	}
-  }
+}
+
+.loader-fade-out{
+	animation: fadeOut 1s ease;
+}
+
+	@keyframes fadeOut{
+		0%{
+			opacity: 100%;
+		}
+		100%{
+			opacity: 0%;
+		}
+		
+	}

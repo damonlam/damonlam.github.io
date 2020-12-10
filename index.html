@@ -38,24 +38,23 @@
 	.logo-container{
 		display: hidden;
 	}
-	.nav-pre-load{
-		display: hidden;
-	}
 
 </style>
 
 
 <body id="home-body">
 
-	<div class="desktop-load" id="loading">
+	<div class="desktop-load loader-fade-out" id="loading">
 		<img class="load-object rotate planet1" src="icn/solar system.webp" alt="">
 		<img class="load-object rotate-anti planet2" src="icn/2nd planet.webp" alt="">
 	</div>
 
+	<div id="home-content">
+
 	<div id="logo-container">
 		<div class="content" id="desktop-home">
 
-			<video autoplay muted loop playsinline id="desktop-home-video" >
+			<video autoplay muted loop playsinline class="fade-in" id="desktop-home-video" >
 				<source src="vid/logo-home-alpha original.mov" type="video/mp4">
 				<source src="vid/logo-home-fallback.mp4" type="video/mp4">
 				<img src="icn/obscura_logo.png">
@@ -63,7 +62,7 @@
 
 		</div>	
 	
-		<div class="content content-canvas centre" id="mobile-home">
+		<div class="content content-canvas centre fade-in" id="mobile-home">
 
 			<video autoplay muted loop playsinline id="myVideo" >
 				<source src="vid/logo-home-alpha original.mov" type="video/mp4">
@@ -90,7 +89,7 @@
 				  </video></a>
 			</div>
 		
-			<ul id="nav" class="nav-else home-nav nav-pre-load"></ul>
+			<ul id="nav" class="nav-else home-nav fade-in"></ul>
 			
 			<div class="burger burger-home">
 				<div class="line1"></div>
@@ -101,17 +100,30 @@
 		</div>
 
 	</div>
+
+	</div>
 	
 
 	<script src="script.js"></script>
 	<script>
 		navBar()
-		document.getElementById("nav").style.opacity = "0%";
+		document.getElementById("nav").style.display = "none";
+		
 
 		window.onload = function(){ 
-			document.getElementById("loading").style.display = "none";
-			document.getElementById("logo-container").style.display = "initial";
-			document.getElementById("nav").style.opacity = "100%";
+			document.getElementById("loading").classList.add('loader-fade-out');
+				document.getElementById("loading").style.display = "none";
+				console.log('waiting');
+
+			setTimeout(() => {
+				document.getElementById("logo-container").style.display = "initial";
+			}, 1000);
+
+			setTimeout(() =>{
+				document.getElementById("nav").style.display=('initial');
+			}, 3000);
+				
+		
 		}
 
 		console.log('hi there');
