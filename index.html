@@ -91,7 +91,7 @@
 		
 			<ul id="nav" class="nav-else home-nav fade-in"></ul>
 			
-			<div class="burger burger-home">
+			<div id="burger" class="burger burger-home fade-in">
 				<div class="line1"></div>
 				<div class="line2"></div>
 				<div class="line3"></div>
@@ -108,7 +108,8 @@
 	<script>
 		navBar()
 		document.getElementById("nav").style.display = "none";
-		
+		document.getElementById("burger").style.display = "none";
+
 
 		window.onload = function(){ 
 			document.getElementById("loading").classList.add('loader-fade-out');
@@ -121,6 +122,7 @@
 
 			setTimeout(() =>{
 				document.getElementById("nav").style.display=('initial');
+				document.getElementById("burger").style.display=('initial');
 			}, 3000);
 				
 		
