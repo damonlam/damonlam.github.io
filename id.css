@@ -135,6 +135,9 @@
 }
 #loading{
 	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 #home-body{
 	overflow: hidden;

@@ -38,13 +38,19 @@
 	.logo-container{
 		display: hidden;
 	}
+	#nav{
+		display: none;
+	}
+	#burger{
+		display: none;
+	}
 
 </style>
 
 
 <body id="home-body">
 
-	<div class="desktop-load loader-fade-out" id="loading">
+	<div class="desktop-load" id="loading">
 		<img class="load-object rotate planet1" src="icn/solar system.webp" alt="">
 		<img class="load-object rotate-anti planet2" src="icn/2nd planet.webp" alt="">
 	</div>
@@ -107,14 +113,16 @@
 	<script src="script.js"></script>
 	<script>
 		navBar()
-		document.getElementById("nav").style.display = "none";
-		document.getElementById("burger").style.display = "none";
+		// document.getElementById("nav").style.display = "none";
+		// document.getElementById("burger").style.display = "none";
 
 
 		window.onload = function(){ 
-			document.getElementById("loading").classList.add('loader-fade-out');
+				document.getElementById("loading").classList.add('loader-fade-out');
+			
+			setTimeout(() => {
 				document.getElementById("loading").style.display = "none";
-				console.log('waiting');
+			}, 500);
 
 			setTimeout(() => {
 				document.getElementById("logo-container").style.display = "initial";
