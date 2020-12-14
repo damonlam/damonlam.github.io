@@ -108,4 +108,22 @@ function retractPub(imageDeselect){
     showDiv.innerHTML = message;
 }
 
+// window.onload = function(){ 
+//     document.getElementById("loading").classList.add('loader-fade-out');
+
+// setTimeout(() => {
+//     document.getElementById("loading").style.display = "none";
+// }, 500);
+
+// setTimeout(() => {
+//     document.getElementById("logo-container").style.display = "initial";
+// }, 2000);
+
+// setTimeout(() =>{
+//     document.getElementById("nav").style.display=('initial');
+// }, 3000);
+    
+
+// }
+
 
