@@ -98,6 +98,12 @@
 .slider{
 	height:auto;
 	width:5vw;
+	position: relative;
+}
+.notch{
+	width: 1vw;
+	position: absolute;
+	transform: translateX(-5vw) rotate(-90deg);
 }
 .slider-expand{
 	width: 5vw;
@@ -145,6 +151,8 @@
 	/* position: sticky; */
 	position: fixed;	
 }
+
+
 
 .small{
 	max-width:40%;
