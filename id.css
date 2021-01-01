@@ -103,7 +103,6 @@
 	height: 5vw;
 }
 #desktop-home-video{
-	/* position: fixed; */
 	max-width: 400px;
 	max-height: 400px;
 	margin-top: auto;
@@ -119,7 +118,7 @@
 	height: 100vh;
 	display: flex;
 	justify-content: center;
-	margin-top: -5vw;	
+	margin-top: -5vw;
 }
 
 #develop-icon{
@@ -143,7 +142,5 @@
 	overflow: hidden;
 	display: hidden;
 }
-#logo-container{
-	display:none;
-}
+
 }

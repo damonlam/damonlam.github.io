@@ -244,7 +244,7 @@
   }
 
 .fade-in{
-  	animation: fadeIn 5s ease;
+  	animation: fadeIn 3s ease-in;
   }
   
   @keyframes fadeIn {
@@ -257,7 +257,7 @@
 }
 
 .loader-fade-out{
-	animation: fadeOut 1s ease;
+	animation: fadeOut 1s ease-out;
 }
 
 	@keyframes fadeOut{
