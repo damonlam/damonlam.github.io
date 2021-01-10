@@ -2,7 +2,7 @@
 
 function navBar(){
 let page0Title = "home";
-let page1Title = "about";
+let page1Title = "et cetera";
 let page2Title = "stream";
 let page3Title = "alchemy";
 let page4Title = "repository";
@@ -18,7 +18,7 @@ let list5 = document.createElement('li');
 
  
 list0.innerHTML = "<a href='index.html'>" + page0Title +"</a><br>";
-list1.innerHTML = "<a href='about.html'>" + page1Title +"</a><br>";
+list1.innerHTML = "<a href='" + page1Title + "'>" + page1Title +"</a><br>";
 list2.innerHTML = "<a href='" + page2Title + "'>" + page2Title +"</a><br>";
 list3.innerHTML = "<a href='" + page3Title + "'>" + page3Title +"</a><br>";
 list4.innerHTML = "<a href='" + page4Title + "'>" + page4Title +"</a><br>";
@@ -26,10 +26,10 @@ list5.innerHTML = "<a href='" + page5Title + "'>" + page5Title +"</a><br>";
 
 
 document.getElementById('nav').appendChild(list0);
-// document.getElementById('nav').appendChild(list1);
 document.getElementById('nav').appendChild(list2);
 document.getElementById('nav').appendChild(list3);
 document.getElementById('nav').appendChild(list4);
+// document.getElementById('nav').appendChild(list1);
 document.getElementById('nav').appendChild(list5);
 
 }

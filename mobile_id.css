@@ -20,18 +20,11 @@
     }
     #about-icon{
        margin-left:0px;
-       /* display:flex;
-       justify-content: center; */
    }
     #logo-size{
         max-width: 1.4cm;
-        /* max-width: 7vh; */
     }
-    /* #mobile-content{
-        margin-top: 40vw;
-    } */
     #hello{
-        /* position: absolute; */
         z-index: 900;
     }
     #hi{
@@ -78,8 +71,26 @@
         /* border: 1px solid grey;	 */
         transform: translateX(-1vw);
     }
+    #desktop-home-video{
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(3vw);
+    }
     #desktop-home{
-        display: none;
+        margin-top: 30vh;
+    }
+    #welcome-text{
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 1.5em;
+	    font-weight: 500;
+    }
+    #logo-container{
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
     }
     #home-logo-setting{
         opacity: 0%;
@@ -95,12 +106,12 @@
         width: 10vw;
         height: 10vw;
     }
-    #myVideo {
+    /* #myVideo {
         position: fixed;
         max-width: 250px;
         max-height: 250px;
         transform: translateX(18px);
-      }
+      } */
     #corner-video{
         position: fixed;
         max-width: 1.4cm;

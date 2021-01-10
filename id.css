@@ -108,7 +108,7 @@
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 25vw;
-	transform: translateX(2vw);
+
 	/* align-self: center;
 	justify-self: center; */
 	/* margin-left: 3vw; */
@@ -116,11 +116,11 @@
   }
 #desktop-home{
 	height: 100vh;
-	display: flex;
+	overflow-x: auto;
+	/* display: flex; */
 	justify-content: center;
 	margin-top: -5vw;
 }
-
 #develop-icon{
 	width: 100%;
 	display: block;
@@ -142,5 +142,8 @@
 	overflow: hidden;
 	display: hidden;
 }
-
+#welcome-text{
+	font-size: 40px;
+	font-weight: 500;
+}
 }

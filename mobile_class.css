@@ -22,8 +22,7 @@
     }
     .content {
         width:86vw;
-        position:initial;
-        /* display:block; */
+        display:block;
         margin-left: 7vw;
         margin-right: 7vw;
     }
@@ -188,19 +187,6 @@
     .mobile-spacer{
         margin-bottom: 2vh;
     }
-    /* .icon-div-center{
-        display:flex;
-        justify-content: center;	
-    } */
-    /* .icon-size{
-        width: 1.2cm;
-        height: 1.2cm;
-        display:block;
-    } */
-    /* .burger{
-        display:flex;
-        align-content: center;
-    } */
     .name-card{
         width:80vw;
         max-width: 500px;
@@ -215,6 +201,23 @@
         display: flex;
         justify-content: center;
         align-content: center;
+    }
+    .content-canvas{
+        height:90vh;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-video-text-div{
+        display: flex;
+        transform: translateX(0px);
+    }
+    .desktop-welcome-text{
+        margin-left: auto;
+        margin-right: auto;
+        width: 75vw;
+
+
     }
     .disclaimer{
         /* display:none; */
@@ -240,4 +243,5 @@
         max-width: 300px;
         /* max-width:400px; */
     }
+
 }

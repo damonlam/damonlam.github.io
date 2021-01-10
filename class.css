@@ -191,6 +191,15 @@
 	margin-top:auto;
 	margin-bottom:auto;
 }
+.logo-video-text-div{
+	transform: translateX(6vw);
+}
+.desktop-welcome-text{
+	width: 25vw;
+	transform: translateX(5vw);
+	margin-left: 5vw;
+	color: #eecd27;
+}
 .rotate-2 {
 	animation: rotation-2nd 20s infinite linear;
   }
