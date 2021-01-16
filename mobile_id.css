@@ -81,6 +81,7 @@
     }
     #desktop-home{
         margin-top: 20vh;
+        position: fixed;
     }
     #welcome-text{
         margin-left:auto;
@@ -92,7 +93,8 @@
     #logo-container{
         margin-left: auto;
         margin-right: auto;
-        position: fixed;
+        /* position: fixed; */
+        height: 300vh;
     }
     #home-logo-setting{
         opacity: 0%;

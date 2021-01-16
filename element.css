@@ -37,6 +37,7 @@ body{
 	margin-left: 0vw;
 	margin-bottom: 0vw;
 	margin-right: 0vw;
+	overflow-y: auto;
 }
 ul{
 	position:initial;
