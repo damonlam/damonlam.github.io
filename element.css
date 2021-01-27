@@ -52,4 +52,7 @@ a{
 	text-decoration:none;
 	font-family:avenir, helvetica;
 }
+::-webkit-scrollbar{
+	display: none;
+}
 }

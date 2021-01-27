@@ -107,7 +107,9 @@
 	max-height: 400px;
 	margin-top: auto;
 	margin-bottom: auto;
-	width: 25vw;
+	height: 25vw;
+	margin-left: 40vw;
+	transform: translateX(-30%);
 
 	/* align-self: center;
 	justify-self: center; */
@@ -120,6 +122,10 @@
 	/* display: flex; */
 	justify-content: center;
 	margin-top: -5vw;
+}
+#logo-container{
+	width: 100vw;
+	margin-left: -6vw;
 }
 #develop-icon{
 	width: 100%;
@@ -143,7 +149,8 @@
 	display: hidden;
 }
 #welcome-text{
-	font-size: 40px;
-	font-weight: 500;
+	font-size: 20px;
+	font-weight: 100;
+	display: none;
 }
 }

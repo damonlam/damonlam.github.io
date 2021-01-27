@@ -108,6 +108,19 @@ function retractPub(imageDeselect){
     showDiv.innerHTML = message;
 }
 
+function highlight(imageSelect){
+    console.log(imageSelect);
+    let chosenImage = imageSelect.id;
+    document.getElementById(chosenImage).style.opacity=1.0;
+}
+
+function unhighlight(imageDeselect){
+
+    console.log(imageDeselect);
+    let leaveImage = imageDeselect.id;
+    document.getElementById(leaveImage).style.opacity=0.75;
+}
+
 // window.onload = function(){ 
 //     document.getElementById("loading").classList.add('loader-fade-out');
 
