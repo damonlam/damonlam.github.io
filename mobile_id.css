@@ -93,7 +93,7 @@
         margin-right:auto;
         font-size: 7vw;
         font-weight: 500;
-        text-align: center;
+        /* text-align: center; */
         display: initial;
     }
     #logo-container{
