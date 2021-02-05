@@ -219,6 +219,14 @@
 .whats-new-dim{
 	opacity: 75%;
 }
+.blur{
+	filter: blur(1.5px);
+	transition: 2s;
+}
+.unblur{
+	filter: blur(0px);
+	transition: 0.5s;
+}
 .last-whats-new{
 	margin-right: 45vw;
 }

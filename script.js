@@ -112,6 +112,8 @@ function highlight(imageSelect){
     console.log(imageSelect);
     let chosenImage = imageSelect.id;
     document.getElementById(chosenImage).style.opacity=1.0;
+    document.getElementById(chosenImage).classList.remove('blur');
+    document.getElementById(chosenImage).classList.add('unblur');
 }
 
 function unhighlight(imageDeselect){
@@ -119,7 +121,10 @@ function unhighlight(imageDeselect){
     console.log(imageDeselect);
     let leaveImage = imageDeselect.id;
     document.getElementById(leaveImage).style.opacity=0.75;
+    document.getElementById(leaveImage).classList.remove('unblur');
+    document.getElementById(leaveImage).classList.add('blur');
 }
+
 
 // window.onload = function(){ 
 //     document.getElementById("loading").classList.add('loader-fade-out');

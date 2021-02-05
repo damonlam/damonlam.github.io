@@ -5,7 +5,9 @@ body{
 	margin-right:7vw;
 	/* margin-bottom:5vw; */
 }
-
+::selection{
+	background: #7effc3d2;
+}
 ul{
 	list-style:none;
 	/* padding-top:6vh; */
