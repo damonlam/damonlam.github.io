@@ -174,12 +174,14 @@
         height: 15vh;
         width: auto;
         margin-left: 5px;
+        transition: 0.2s;
     }
     .slider-expand{
         height: 15vh;
         width: auto;
         margin-left: 5px;
         transform: translateY(-4px);
+        transition: 0.2s;
     }
     .pub-expand{
         height: 15vh;

@@ -100,6 +100,7 @@
 	height:auto;
 	width:5vw;
 	position: relative;
+	transition: 0.2s;
 }
 .notch{
 	width: 1vw;
@@ -115,6 +116,7 @@
 	width: 5vw;
 	height: auto;
 	transform: rotate(3deg) translateX(5px);
+	transition: 0.2s;
 }
 .saberLink a:hover, a:focus{
 	font-size:100%;
