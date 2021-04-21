@@ -79,10 +79,11 @@
     width: 60vw; 
     max-width: 300px;
     max-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: 15vh;
-    transform: translateX(5vw);
+    /* transform: translateX(5vw); */
+    align-self: center;
     }
     #desktop-home{
         margin-top: 20vh;

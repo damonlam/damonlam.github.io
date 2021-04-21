@@ -43,9 +43,9 @@
         width: 100vw;
     }
     .home-sidescroll{
-        display: block;
-        width: 100%;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: auto;
         justify-items: center;
         /* height:500vh; */
         overflow-y: hidden;
@@ -224,7 +224,12 @@
     }
     .logo-video-text-div{
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         transform: translateX(0px);
+        width: 500px;
+
+
     }
     .whats-new-content{
         justify-self: center;
