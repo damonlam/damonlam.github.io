@@ -49,6 +49,7 @@
         justify-items: center;
         /* height:500vh; */
         overflow-y: hidden;
+        overflow-x: hidden;
     }
     .logo{
         /* display:flex;
