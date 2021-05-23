@@ -27,6 +27,22 @@
         opacity: 100%;
         z-index: 1000;
     }
+    .sidebar-home{
+        width:100vw;
+        height:19mm;
+        display: flex;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+        position: fixed;
+        top:0px;
+        background:linear-gradient(rgba(255, 255, 255, 0.918), #F8F8F8);
+        /* box-shadow: 0 0 4px 0px #F8F8F8; */
+        /* padding-top: 5px;
+        padding-bottom:5px; */
+        align-content: center;
+        opacity: 100%;
+        z-index: 1000;
+    }
     .content {
         width:86vw;
         display:block;
@@ -123,6 +139,7 @@
         margin-bottom: auto;
         /* margin-top: 4vw; */
         margin-right: 7vw;
+
         display: block;
         cursor: pointer;
     }
