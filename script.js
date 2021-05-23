@@ -111,10 +111,16 @@ function retractPub(imageDeselect){
 function highlight(imageSelect){
     console.log(imageSelect);
     let chosenImage = imageSelect.id;
+//     const mediaQuery = window.matchMedia('(min-width: 2351px)')
+// // Check if the media query is true
+// if (mediaQuery.matches) {
     // document.getElementById(chosenImage).style.opacity=1.0;
     document.getElementById(chosenImage).classList.remove('blur');
     document.getElementById(chosenImage).classList.add('unblur');
+// }else{
+    
 }
+
 
 function unhighlight(imageDeselect){
 

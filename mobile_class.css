@@ -244,10 +244,12 @@
         /* display: none; */
     }
     .blur{
-        filter: blur(1.5px);
+        filter: blur(0px);
+        opacity: 1;
     }
     .unblur{
         filter: blur(0px);  
+        opacity: 1;
     }
     .first-whats-new{
         margin-top: 10vh;
