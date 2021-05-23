@@ -85,6 +85,9 @@
     /* transform: translateX(5vw); */
     align-self: center;
     }
+    #whats-new1{
+        margin-top: 30vh;
+    }
     #desktop-home{
         margin-top: 20vh;
         /* position: fixed; */

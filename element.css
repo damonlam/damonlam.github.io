@@ -34,12 +34,14 @@ h2{
 
 @media only screen and (max-width: 900px){
 body{
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 	/* margin-top: 3vw; */
 	margin-left: 0vw;
 	margin-bottom: 0vw;
 	margin-right: 0vw;
-	overflow-y: auto;
+	/* overflow-y: auto; */
+	overflow:auto;
+    -webkit-overflow-scrolling: touch;
 }
 ul{
 	position:initial;
@@ -52,7 +54,7 @@ p{
 a{
 	color:#eecd27;
 	text-decoration:none;
-	font-family:avenir, helvetica;
+	font-family: avenir, helvetica;
 }
 ::-webkit-scrollbar{
 	display: none;

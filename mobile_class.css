@@ -2,6 +2,10 @@
     ::-webkit-scrollbar{
         display: none;
     }
+    .scroll{
+        overflow:auto;
+        -webkit-overflow-scrolling: touch;
+    }
     .container { 
         /* justify-content: center; */
         width:100vw;
@@ -225,19 +229,25 @@
     }
     .logo-video-text-div{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         transform: translateX(0px);
         width: 500px;
-
-
     }
     .whats-new-content{
         justify-self: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5vh;
-        display: none;
+        margin-top: 15vh;
+        max-width: 40vw;
+        height: auto;
+        /* display: none; */
+    }
+    .blur{
+        filter: blur(1.5px);
+    }
+    .unblur{
+        filter: blur(0px);  
     }
     .first-whats-new{
         margin-top: 10vh;

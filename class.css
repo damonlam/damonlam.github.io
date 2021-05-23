@@ -118,10 +118,10 @@
 	transform: rotate(3deg) translateX(5px);
 	transition: 0.2s;
 }
-.saberLink a:hover, a:focus{
+/* .saberLink a:hover, a:focus{
 	font-size:100%;
 	transition: .2s;
-}
+} */
 
 .name-card{
 	width: 50vw;
@@ -224,11 +224,12 @@
 .blur{
 	filter: blur(1.5px);
 	transition: 1s;
+	opacity: 0.75;
 }
 .unblur{
 	filter: blur(0px);
 	transition: 0.2s;
-	
+	opacity: 1;
 }
 .last-whats-new{
 	margin-right: 45vw;

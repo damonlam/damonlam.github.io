@@ -1,6 +1,6 @@
 @media screen and (max-device-width: 900px){
     .not-nav, a:hover, a:focus {
-        margin-top: 0px;
+        /* margin-top: 0px; */
         /* margin-left: 1px; */
         font-size: 100%;
         transition: 0.15s;
@@ -8,7 +8,7 @@
     }
     .nav-else a:hover, a:focus{
         color: #eecd27;
-        margin-left:0px;
+        /* margin-left:0px; */
         font-size:100%;
         transition: .2s;
         background-color: none;
