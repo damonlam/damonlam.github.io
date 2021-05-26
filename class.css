@@ -1,6 +1,11 @@
 /* @media screen and (min-width: 1251px){ */
 
-.container {
+::-webkit-scrollbar{
+        /* display: none; */
+        background:#eecd27;
+ }
+
+	.container {
 	margin-top: 5vh;
 	width: 90vw;
 	display: grid;
@@ -200,6 +205,8 @@
 }
 .logo-video-text-div{
 	transform: translateX(6vw);
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .home-sidescroll-spacer{
 	width: 50vw;
@@ -207,11 +214,8 @@
 .home-sidescroll{
 	display: flex;
 	width: 100vw;
-	/* height: 100vh; */
+	height:100%;
 	overflow-x: auto;
-	/* overflow-y: hidden; */
-	/* margin-left: -5vw;
-	margin-right: -10vw; */
 	align-items: center;
 }
 ::-webkit-scrollbar{
@@ -251,6 +255,58 @@
 	/* margin-left: 5vw; */
 	color: #eecd27;
 }
+.tug{
+	animation: slide 2.5s infinite ease;
+	animation-delay: 4s;
+}
+
+	@keyframes slide{
+		0%{
+			translate: 0px;
+		}
+		5% {
+			translate: 10px;
+		}
+		10%{
+			translate: 0px;
+		}
+		15% {
+			translate: 5px;
+		}
+		20%{
+			translate: 0px;
+		}
+		100%{
+			translate:0px;
+		}
+	}
+
+.tug-delay{
+	animation: slide 2.5s  infinite ease;
+	animation-delay: 4.04s;
+}
+
+	@keyframes slide{
+		0%{
+			translate: 0px;
+		}
+		5% {
+			translate: 10px;
+		}
+		10%{
+			translate: 0px;
+		}
+		15% {
+			translate: 5px;
+		}
+		20%{
+			translate: 0px;
+		}
+		100%{
+			translate:0px;
+		}
+	}
+
 .rotate-2 {
 	animation: rotation-2nd 20s infinite linear;
   }

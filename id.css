@@ -150,4 +150,23 @@
 #whats-new1{
 	margin-top: initial;
 }
+#home-arrow{
+	bottom: 50px;
+	right: 60px;
+	position: fixed;
+	width: 7vw;
+	min-width: 80px;
+	max-width: 140px;
+}
+#arrow-dots{
+	bottom: 50px;
+	right: 60px;
+	position: fixed;
+	width: 7vw;
+	min-width: 80px;
+	max-width: 140px;
+}
+#home-arrow-vertical{
+	display: none;
+}
 }

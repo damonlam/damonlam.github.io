@@ -1,5 +1,7 @@
 "use strict"
 
+
+
 function navBar(){
 let page0Title = "home";
 let page1Title = "et cetera";
@@ -35,18 +37,23 @@ document.getElementById('nav').appendChild(list5);
 }
 const navSlide = () => {
     const burger = document.querySelector('.burger');
-    // const nav = document.querySelector('.nav-else');
-    // const navLink = document.querySelectorAll('.nav-else li');
-    //toggle nav
 
     burger.addEventListener('click',() =>{
         nav.classList.toggle('nav-active');
         burger.classList.toggle('toggle');
         console.log("yes");
     });
-
 }
 navSlide();
+
+const homeSideScroll = () => {
+    const arrow = document.querySelector('.home-arrow-div');
+
+    arrow.addEventListener('click',() =>{
+        document.getElementById("whats-new2").scrollIntoView();
+    });
+}
+// homeSideScroll();
 
 let message = document.getElementById('image-magnifier').innerHTML;
 
@@ -142,9 +149,10 @@ function fastLoad(){
     document.getElementsByClassName('slider')[6].setAttribute("loading", 'eager');
     document.getElementsByClassName('slider')[7].setAttribute("loading", 'eager');
     document.getElementsByClassName('slider')[8].setAttribute("loading", 'eager');
-
-    // imgElements.setAttribute("loading",fastLoad);
 }
+fastLoad();
+
+
 // window.onload = function(){ 
 //     document.getElementById("loading").classList.add('loader-fade-out');
 

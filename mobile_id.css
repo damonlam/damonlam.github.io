@@ -134,4 +134,17 @@
     #info-description{
         /* margin: 0 4vw 0 4vw; */
     }
+    #home-arrow{
+        display: none;
+    }
+    #home-arrow-vertical{
+        bottom: 5vw;
+        right: 5vw;
+        position: fixed;
+        height: 10vw;
+        min-height: 70px;
+    }
+    #arrow-dots{
+        display: none;
+    }
 }

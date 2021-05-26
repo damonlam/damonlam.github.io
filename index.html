@@ -40,6 +40,7 @@
 
 	body{
 		background: #f8f8f8ed;
+		overflow-x: scroll;
 	}
 	.logo-container{
 		/* display: hidden; */
@@ -68,9 +69,11 @@
 
 <body id="home-body">
 
-	<!-- <div >
-		<img class="arrow" src="/icn/arrow.webp">
-	</div> -->
+	<div id="arrow-div" class="home-arrow-div">
+		<img id="home-arrow" class="tug" src="icn/arrow no dot.webp" alt="">
+		<img id="arrow-dots" class="tug-delay" src="icn/arrow-dots.webp" alt="">
+		<img id="home-arrow-vertical" class="tug" src="icn/arrow vertical.webp" alt="">
+	</div>	
 
 	<div id="logo-container">
 		<div class="content content-canvas" id="desktop-home">
@@ -81,7 +84,7 @@
 				
 				<div class="logo-video-text-div">
 		
-						<video autoplay muted loop playsinline class="fade-in" id="desktop-home-video" >
+						<video autoplay muted loop playsinline class="" id="desktop-home-video" > //class "fade-in" removed
 							<source src="vid/logo-home-alpha original.mov" type="video/mp4">
 							<source src="vid/logo-home-fallback.mp4" type="video/mp4">
 							<img src="icn/obscura_logo.png">
@@ -116,7 +119,7 @@
 		
 		
 
-		<div class="mobile-home-spacer"></div>
+		<!-- <div class="mobile-home-spacer"></div> -->
 	
 
 	</div>
