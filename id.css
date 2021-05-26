@@ -32,7 +32,6 @@
 	margin-left:-20px;
 	position: fixed;
 	bottom: 7vh;
-
 	font:20px avenir, helvetica;
 }
 /* #image-thumbnail {
@@ -110,11 +109,6 @@
 	height: 25vw;
 	margin-left: 40vw;
 	transform: translateX(-30%);
-
-	/* align-self: center;
-	justify-self: center; */
-	/* margin-left: 3vw; */
-	/* margin-top: 50vh; */
   }
 #desktop-home{
 	height: 100vh;

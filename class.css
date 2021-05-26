@@ -6,7 +6,7 @@
 	display: grid;
 	grid-template-columns: 27% auto;
 }
-.sidebar{
+.sidebar{ 
 	width:100%;
 	height:100%;
 }
@@ -61,8 +61,12 @@
 }
 
 .normal-link{
-	font: 50px avenir, helvetica;
+	font: 35px avenir, helvetica;
 	line-height: auto;
+	margin-top: 5vh;
+}
+.normal-link a:hover{
+	text-decoration: line-throughf;
 }
 
 .photo-column{
@@ -228,11 +232,18 @@
 }
 .unblur{
 	filter: blur(0px);
-	transition: 0.2s;
+	transition: 0.3s;
 	opacity: 1;
 }
 .last-whats-new{
 	margin-right: 45vw;
+}
+.arrow{
+	margin-top: auto;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	position: fixed;
+	width: 100px;
 }
 .desktop-welcome-text{
 	width: 25vw;

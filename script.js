@@ -35,7 +35,7 @@ document.getElementById('nav').appendChild(list5);
 }
 const navSlide = () => {
     const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-else');
+    // const nav = document.querySelector('.nav-else');
     // const navLink = document.querySelectorAll('.nav-else li');
     //toggle nav
 
@@ -86,7 +86,7 @@ function expandPub(imageSelect){
     document.getElementById(chosenImage).classList.add('dim');
     document.getElementById(chosenImage).classList.remove('slider');
     document.getElementById(chosenImage).classList.add('pub-expand');
-    console.log("hey there");
+    // console.log("hey there");
     document.getElementById(chosenImage).setAttribute("title", imageInfo);
     console.log(imageSource);
     let showDiv = document.getElementById('image-magnifier');
@@ -131,7 +131,20 @@ function unhighlight(imageDeselect){
     document.getElementById(leaveImage).classList.add('blur');
 }
 
+function fastLoad(){
 
+    document.getElementsByClassName('slider')[0].setAttribute("loading", 'eager');
+    document.getElementsByClassName('slider')[1].setAttribute("loading", 'eager');
+    document.getElementsByClassName('slider')[2].setAttribute("loading", 'eager');
+    document.getElementsByClassName('slider')[3].setAttribute("loading", 'eager');
+    document.getElementsByClassName('slider')[4].setAttribute("loading", 'eager');
+    document.getElementsByClassName('slider')[5].setAttribute("loading", 'eager');
+    document.getElementsByClassName('slider')[6].setAttribute("loading", 'eager');
+    document.getElementsByClassName('slider')[7].setAttribute("loading", 'eager');
+    document.getElementsByClassName('slider')[8].setAttribute("loading", 'eager');
+
+    // imgElements.setAttribute("loading",fastLoad);
+}
 // window.onload = function(){ 
 //     document.getElementById("loading").classList.add('loader-fade-out');
 
