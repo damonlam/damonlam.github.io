@@ -140,6 +140,12 @@ function unhighlight(imageDeselect){
 
 function fastLoad(){
 
+    // const arrayToCut = [0,1,2,3,4,5,6,7,8,9,10];
+    // const n = 8;
+    // const newArray = arrayToCut.slice(0,n);
+
+    // document.getElementsByClassName('slider')[newArray].setAttribute("loading", 'eager');
+
     document.getElementsByClassName('slider')[0].setAttribute("loading", 'eager');
     document.getElementsByClassName('slider')[1].setAttribute("loading", 'eager');
     document.getElementsByClassName('slider')[2].setAttribute("loading", 'eager');
