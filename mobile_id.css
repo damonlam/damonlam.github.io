@@ -147,4 +147,12 @@
     #arrow-dots{
         display: none;
     }
+    #logo-shrink{
+        max-width: 2cm;
+        position: fixed;
+        opacity: 90%;
+        left: 4vw;
+        top: 1.5vw;
+        transition: 3s;
+    }
 }

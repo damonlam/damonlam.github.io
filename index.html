@@ -79,19 +79,16 @@
 		<div class="content content-canvas" id="desktop-home">
 
 			<div class="home-sidescroll">
-			
-				<a href="https://www.obscuriam.com/info">
-				
+							
 				<div class="logo-video-text-div">
-		
+					<a href="https://www.obscuriam.com/info">
 						<video autoplay muted loop playsinline class="" id="desktop-home-video" > //class "fade-in" removed
 							<source src="vid/logo-home-alpha original.mov" type="video/mp4">
 							<source src="vid/logo-home-fallback.mp4" type="video/mp4">
 							<img src="icn/obscura_logo.png">
 					  	</video>
-			
+					</a>
 				</div>
-				</a>
 		
 				<div class="logo-video-text-div stream-new">
 					<a href="https://www.obscuriam.com/stream">
@@ -157,9 +154,10 @@
 	<script src="script.js"></script>
 	<script>
 		navBar()
-		// document.getElementById("nav").style.display = "none";
-		// document.getElementById("burger").style.display = "none";
-
+		
+		window.onscroll = function() {
+  			growShrinkLogo()
+		};
 
 		window.onload = function(){ 
 				document.getElementById("loading").classList.add('loader-fade-out');
