@@ -246,6 +246,7 @@
         justify-content: center;
         transform: translateX(0px);
         width: 500px;
+        padding-bottom: 10%;
     }
     .whats-new-content{
         justify-self: center;

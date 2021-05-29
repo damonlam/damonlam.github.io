@@ -161,17 +161,19 @@ fastLoad();
 function growShrinkLogo() {
     let mainLogo = document.getElementById("desktop-home-video");
     let homeLogo= document.getElementById("home-logo-setting");
-    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250 && ) {
       mainLogo.style.opacity='.2';
-      mainLogo.style.transition=".4s";
+        mainLogo.style.transition=".4s";
+
       homeLogo.style.opacity='1';
-      homeLogo.style.transition=".4s";
+        homeLogo.style.transition=".4s";
 
     } else {
         mainLogo.style.opacity='1';
-        mainLogo.style.transition=".4s";
+            mainLogo.style.transition=".4s";
+
         homeLogo.style.opacity='0';
-        homeLogo.style.transition=".4s";
+            homeLogo.style.transition=".4s";
     }
   }
 
