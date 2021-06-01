@@ -1,7 +1,5 @@
 "use strict"
 
-
-
 function navBar(){
 let page0Title = "home";
 let page1Title = "et cetera";
@@ -161,11 +159,11 @@ fastLoad();
 function growShrinkLogo() {
     let mainLogo = document.getElementById("desktop-home-video");
     let homeLogo= document.getElementById("home-logo-setting");
-    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250 && ) {
-      mainLogo.style.opacity='.2';
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+      mainLogo.style.opacity='.1';
         mainLogo.style.transition=".4s";
 
-      homeLogo.style.opacity='1';
+      homeLogo.style.opacity='1.0';
         homeLogo.style.transition=".4s";
 
     } else {
@@ -176,6 +174,24 @@ function growShrinkLogo() {
             homeLogo.style.transition=".4s";
     }
   }
+
+//   const new1 = document.querySelector("div.new1");
+//   const new2 = document.querySelector("div.new2");
+//   const new2 = document.querySelector("div.new3");
+
+//   const newOne = document.getElementById("whats-new1");
+
+//   window.addEventListener("scroll", function(){
+      
+//       if(new1.getBoundingClientRect().top < 50) {
+//             // newOne.style.filter='blur:0px';
+//             new1.style.background = 'red';
+
+
+//       }else{
+//         //   newOne.style.filter='blur:5px';
+//       }
+//   });
 
 // window.onload = function(){ 
 //     document.getElementById("loading").classList.add('loader-fade-out');

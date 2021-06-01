@@ -329,5 +329,25 @@
             }
         }
     
+        .mobile-focus {
+            /* width: 200px;
+            height: 200px;
+            background: teal;
+            border-radius: 8px;
+            opacity: 0;
+            transform: scale(1.2); */
+            /* filter: blur(3px); */
+        }
+        
+        @media (prefers-reduced-motion: no-preference) {
+          .mobile-focus {
+            transition: filter 1.5s ease;
+          }
+        }
+        
+        .mobile-focus-transition {
+            filter: blur(0px);
+            transform: none;
+        }
 
 }
