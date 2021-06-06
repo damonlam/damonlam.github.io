@@ -6,7 +6,7 @@
 } */
 
 .nav-else a:hover, a:focus{
-	color:#383838d2;
+	color: var(--grey);
 	/* margin-left:3px; */
 	font-size:100%;
 	transition: .5s;
@@ -45,7 +45,7 @@
         padding:0px 0px 5px 0px;
     }
     .nav-else a:hover, a:focus{
-        color: #eecd27;
+        color: var(--yellow);
         margin-left:0px;
         font-size:100%;
         transition: .2s;

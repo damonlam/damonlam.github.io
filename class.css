@@ -2,7 +2,7 @@
 
 ::-webkit-scrollbar{
         /* display: none; */
-        background:#eecd27;
+        background:var(--yellow);
  }
 
 	.container {
@@ -253,7 +253,7 @@
 	width: 25vw;
 	transform: translateX(5vw);
 	/* margin-left: 5vw; */
-	color: #eecd27;
+	color: var(--yellow);
 }
 .tug{
 	animation: slide 2.5s infinite ease;

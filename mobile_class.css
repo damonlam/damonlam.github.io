@@ -1,7 +1,7 @@
 @media only screen and (max-width: 900px){
     ::-webkit-scrollbar{
         /* display: none; */
-        background:#eecd27;
+        background:var(--yellow);
     }
     .scroll{
         /* overflow:auto; */
@@ -146,7 +146,7 @@
         width:27px;
         height:3px;
         /* background-color:#FFDD2A; */
-        background-color:#eecd27;
+        background-color:var(--yellow);
         margin:7px 0px 7px 0px;
         transition: all 0.3s ease;
     }
@@ -301,7 +301,7 @@
         width: 25vw;
         transform: translateX(5vw);
         /* margin-left: 5vw; */
-        color: #eecd27;
+        color: var(--yellow);
     }
     .tug{
         animation: slide 2.5s infinite ease;

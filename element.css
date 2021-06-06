@@ -1,12 +1,20 @@
+:root {
+	--yellow: #eecd27;
+	--teal: #7effc3d2;
+	--grey: #383838d2;
+	--background: #f8f8f8; 
+	--orange: orange;
+}
 
 body{
 	margin-top:5vw;
 	margin-left:6vw;
 	margin-right:7vw;
 	/* margin-bottom:5vw; */
+	background: var(--background);
 }
 ::selection{
-	background: #7effc3d2;
+	background: var(--teal);
 }
 ul{
 	list-style:none;
@@ -15,7 +23,7 @@ ul{
 }
 
 a{
-	color:#eecd27;
+	color:var(--yellow);
 	text-decoration:none;
 	font-family:avenir, helvetica;
 }
@@ -50,7 +58,7 @@ p{
 	/* text-align: justify; */
 }
 a{
-	color:#eecd27;
+	color:var(--yellow);
 	text-decoration:none;
 	font-family: avenir, helvetica;
 }
