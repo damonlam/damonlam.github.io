@@ -14,7 +14,7 @@ body{
     overflow: hidden;
 }
 
-section{
+div{
     position: relative;
     width: 105vw; height: 105vh;
     /* overflow: hidden; */
@@ -23,7 +23,7 @@ section{
     align-items: center;
 }
 
-section img{
+div img{
     position: absolute;
     /* top: 0;
     left: 0; */
@@ -33,7 +33,7 @@ section img{
     z-index: 50;
 }
 
-section h2{
+div h2{
     position: relative;
     color: black;
     font-size: 9em;
