@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <div>
+    <section>
         <!-- <img src="/play/parallax layers/cone.png" data-speed="-5" class="layer">
         <img src="/play/parallax layers/diffraction.png" data-speed="3" class="layer">
         <img src="/play/parallax layers/duality.png" data-speed="-7" class="layer">
@@ -29,16 +29,16 @@
         <img src="/play/parallax_layers/vaccine-3.png" data-speed="2" class="layer">
         <img src="/play/parallax_layers/vaccine-4.png" data-speed="3" class="layer">
         <img src="/play/parallax_layers/vaccine-5.png" data-speed="4" class="layer">
-        <img src="/play/parallax_layers/vaccine-6.png" data-speed="12" class="layer">
+        <img src="/play/parallax_layers/vaccine-6.png" data-speed="12" class="layer" style="filter:blur(.5px)">
         <img src="/play/parallax_layers/vaccine-7.png" data-speed="1" class="layer">
         <img src="/play/parallax_layers/vaccine-8.png" data-speed="3" class="layer">
         <img src="/play/parallax_layers/vaccine-9.png" data-speed="3" class="layer">
     
+        <img src="/play/parallax_layers/vaccine-flex.png" data-speed="0.5" class="layer" id="flex">
         
-        <h2 class="layer" data-speed=".5">&#128170</h2>
-            
-        <img src="/play/parallax_layers/vaccine-text.png" data-speed="0" class="layer spinning" id="text">
+        <img src="/play/parallax_layers/vaccine-text.png" class="spinning" id="text">
         </div>
+    </section>
     
     <script type="text/javascript">
         document.addEventListener("mousemove", parallax);
@@ -49,7 +49,7 @@
 
                 const speed = layer.getAttribute('data-speed')
 
-                const x = (window.innerWidth - e.pageX*speed)/150
+                const x = (window.innerWidth - e.pageX*speed)/100
 
                 const y = (window.innerWidth - e.pageY*speed)/100
 
