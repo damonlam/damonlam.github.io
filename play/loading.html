@@ -12,30 +12,48 @@
         <title>撈丁</title>
 
         <link rel="icon" type="" href="">
-        <link rel="stylesheet" href="/play/new_style.css">
+        <link rel="stylesheet" href="/play/CSS/new_style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
 </head>
 
 <style>
 
-body{
-        overflow:hidden;
-}
 
 </style>
 
 <body>
 
-        <div class="container">
+
+        <div class="canvas">
                 <h1>撈丁&#127836 ...</h1>
                 <div class="load-bar-mask">
                         <div class="rainbow-gradient move"></div>
                 </div>
                 <div class="load-bar-shadow">
                 </div>
-
-                <!-- <div class="rainbow-gradient"></div> -->
         </div>
+<!-- 
+        <div class="container">
+                <div id="parallax-scene">
+                        <div class="square" data-depth="1">
+                                <img src="/icn/cone_of_possibility.png">
+                        </div>
+                        <div class="square" data-depth="0.4">
+                                <img src="/icn/cone_of_possibility.png">
+                        </div>
+                        <div class="square" data-depth="0.6">
+                                <img src="/icn/cone_of_possibility.png">
+                        </div>
+                </div>
+        </div> -->
+
+
+        <script src="/play/parallax.js">
+                var scene = document.getElementById('parallax-scene');
+                var parallax = new Parallax(scene);
+        </script>
+        
 </body>
 
 </html>
