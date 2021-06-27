@@ -2,7 +2,7 @@
 
 function navBar(){
 let page0Title = "home";
-let page1Title = "et cetera";
+let page1Title = "play";
 let page2Title = "stream";
 let page3Title = "alchemy";
 let page4Title = "repository";
@@ -26,10 +26,10 @@ list5.innerHTML = "<a href='" + page5Title + "'>" + page5Title +"</a><br>";
 
 
 document.getElementById('nav').appendChild(list0);
+document.getElementById('nav').appendChild(list1);
 document.getElementById('nav').appendChild(list2);
 document.getElementById('nav').appendChild(list3);
 document.getElementById('nav').appendChild(list4);
-// document.getElementById('nav').appendChild(list1);
 document.getElementById('nav').appendChild(list5);
 
 }
