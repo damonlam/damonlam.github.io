@@ -42,8 +42,10 @@
     
     <script type="text/javascript">
         document.addEventListener("mousemove", parallax);
+        document.addEventListener("touchmove", parallax);
         function parallax(e)
         {
+            // console.log(e.touches);
 
             this.querySelectorAll('.layer').forEach(layer =>{
 
