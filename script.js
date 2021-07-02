@@ -26,7 +26,7 @@ list5.innerHTML = "<a href='" + page5Title + "'>" + page5Title +"</a><br>";
 
 
 document.getElementById('nav').appendChild(list0);
-document.getElementById('nav').appendChild(list1);
+// document.getElementById('nav').appendChild(list1);
 document.getElementById('nav').appendChild(list2);
 document.getElementById('nav').appendChild(list3);
 document.getElementById('nav').appendChild(list4);

@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="Damon Lam">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <meta name="keywords" content="html, photography">
+
+        <title>moiré</title>
+
+        <link rel="icon" type="" href="">
+        <!-- <link rel="stylesheet" href="/play/CSS/new_style.css"> -->
+
+</head>
+
+<style>
+        body{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /* background: gray; */
+                top: 0px;
+                left: 0px;
+                overflow: hidden;
+        }
+        .container{
+                width: 80vw;
+                height: 80vh;
+                overflow: hidden;
+                /* background: gray; */
+        }
+        .mask-test{
+                width: 100%;
+                z-index: 100;
+                position: absolute;
+
+
+                transform: translateY(-50%) translateX(-50%);
+                top: 50%;
+                left: 50%;
+                /* opacity: 50%; */
+        }
+        .static-circle{
+                width: 100%;
+                z-index: 50;
+
+                position: absolute;
+
+                transform: translateY(-17%) translateX(-60%);
+                top: 50%;
+                left: 50%;
+        }
+        .moving-circle{
+                width: 170%;
+                z-index: 50;
+
+                position: absolute;
+
+                transform: translateY(-20%) translateX(-50%);
+                top: 50%;
+                left: 50%;
+
+                opacity: 90%;
+        }
+        img{
+                width: 100%;
+        }
+        .static-circle img{
+                width: 120%;
+        }
+
+
+</style>
+
+<body>
+        <section class="container">
+
+                <div class="mask-test">
+                        <img src="/img/mask/moire long.png" alt="">
+                </div>
+                
+                <div class="static-circle">
+                        <img src="/img/mask/concentric_circles.png"  alt="">
+                </div>
+
+                <div class="moving-circle">
+                        <img src="/img/mask/concentric_circles.png" data-speed="15" class="layer" alt="">
+                </div>
+        </section>
+
+        <script type="text/javascript">
+                document.addEventListener("mousemove", parallax);
+                document.addEventListener("touchmove", parallax);
+                function parallax(e)
+                {
+                    // console.log(e.touches);
+        
+                    this.querySelectorAll('.layer').forEach(layer =>{
+        
+                        const speed = layer.getAttribute('data-speed')
+        
+                        const x = (window.innerWidth - e.pageX*speed)/100
+        
+                        const y = (window.innerWidth - e.pageY*speed)/100
+        
+                        layer.style.transform = `translateX(${x}px) 
+                        translateY(${y}px)`
+                    })
+                }
+
+
+                function getAccel(){
+    DeviceMotionEvent.requestPermission().then(response => {
+        if (response == 'granted') {
+
+            window.addEventListener('devicemotion', (event) => {
+                console.log(event);
+            });
+        }
+    });
+}
+
+
+            </script>
+</body>
+
+</html>

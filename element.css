@@ -8,7 +8,7 @@
 
 body{
 	margin-top:5vw;
-	margin-left:6vw;
+	margin-left:5vw;
 	margin-right:7vw;
 	/* margin-bottom:5vw; */
 	background: var(--background);
@@ -65,4 +65,5 @@ a{
 ::-webkit-scrollbar{
 	display: none;
 }
+
 }

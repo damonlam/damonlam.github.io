@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="Damon Lam">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <meta name="keywords" content="html, photography">
+
+        <title>撈丁</title>
+
+        <link rel="icon" type="" href="">
+        <!-- <link rel="stylesheet" href="/play/CSS/new_style.css"> -->
+
+</head>
+
+<style>
+        body{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+        }
+        .canvas{
+                width: 100vw;
+                height: 100vh;
+        }
+        img{
+                width: 50vw;
+                height: 100%;
+        }
+        .mask-test{
+                -webkit-mask-image: url(/img/hello_white.png);
+                mask-image: url(/img/hello_white.png);
+
+                -webkit-mask-position: center center;
+                mask-position: center center;
+
+                -webkit-mask-repeat: no-repeat; 
+                mask-repeat: no-repeat; 
+
+                -webkit-mask-size: 50vw;
+                mask-size: 50vw;
+
+                -webkit-mask-mode: alpha;
+                mask-mode: alpha;
+        }
+
+</style>
+
+<body>
+                <img src="/img/rainbow.jpg" class="mask-test" alt="">
+
+        
+</body>
+
+</html>
