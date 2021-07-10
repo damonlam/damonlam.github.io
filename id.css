@@ -156,7 +156,7 @@
 	position: fixed;
 	width: 7vw;
 	min-width: 80px;
-	max-width: 140px;
+	max-width: 100px;
 }
 #arrow-dots{
 	bottom: 50px;

@@ -53,8 +53,30 @@
 </style>
 
 <body>
-                <img src="/img/rainbow.jpg" class="mask-test" alt="">
+                <img src="/img/rainbow.jpg" class="mask-test layer" alt="">
 
+                <script type="text/javascript">
+                        document.addEventListener("mousemove", parallax);
+                        document.addEventListener("touchmove", parallax);
+                        function parallax(e)
+                        {
+                            // console.log(e.touches);
+                
+                            this.querySelectorAll('.layer').forEach(layer =>{
+                
+                                const speed = layer.getAttribute('data-speed')
+                
+                                const x = (window.innerWidth - e.pageX*speed)/100
+                
+                                const y = (window.innerWidth - e.pageY*speed)/100
+                
+                                layer.style.transform = `translateX(${x}px) 
+                                translateY(${y}px)`
+                            })
+                        }
+        
+        
+                    </script>
         
 </body>
 
