@@ -124,7 +124,7 @@
 .pub-expand{
 	width: 5vw;
 	height: auto;
-	transform: rotate(3deg) translateX(5px);
+	transform: rotate(3deg) translateX(10px);
 	transition: 0.2s;
 }
 /* .saberLink a:hover, a:focus{
@@ -163,7 +163,22 @@
 	/* position: sticky; */
 	position: fixed;	
 }
+.pub-big{
+	max-width:35%;
+	max-height:75%;
 
+	/* min-height: auto; */
+	/* object-fit: contain; */
+	/* align-items: center; */
+	/* display:inline-block; */
+	position: -webkit-sticky;
+	/* position: sticky; */
+	position: fixed;	
+}
+
+.pub-big img{
+	object-fit: contain;
+}
 
 
 .small{

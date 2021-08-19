@@ -97,7 +97,7 @@ function expandPub(imageSelect){
     let showDiv = document.getElementById('image-magnifier');
     console.log(imageSource);
     showDiv.remove;
-    showDiv.innerHTML = "<img class='big' src='" + imageSource +"'>";
+    showDiv.innerHTML = "<img class='pub-big' src='" + imageSource +"'>";
     console.log("function complete");
 }
 
