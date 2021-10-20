@@ -1,0 +1,50 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#desktop-home-video{
+    margin-left: 2vw;
+    margin-top: 2vw;
+    max-width: 150px;
+    max-height: 150px;
+}
+.centre-stage{
+    height: 200px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.logo{
+    top: 0px;
+    left: 0px;
+}
+
+
+.logo-video-text-div{
+	transform: translateX(6vw);
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.blur{
+	filter: blur(1.5px);
+	transition: 1s;
+	opacity: 0.75;
+}
+.unblur{
+	filter: blur(0px);
+	transition: 0.3s;
+	opacity: 1;
+}
+
+a img{
+    max-height: 200px;
+   
+}

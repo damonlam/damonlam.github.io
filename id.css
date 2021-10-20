@@ -102,12 +102,10 @@
 	height: 5vw;
 }
 #desktop-home-video{
-	max-width: 400px;
-	max-height: 400px;
-	margin-top: auto;
-	margin-bottom: auto;
-	height: 25vw;
-	margin-left: 40vw;
+	max-width: 200px;
+	max-height: 200px;
+	margin-top: 5vw;
+	margin-left: 5vw;
 	transform: translateX(-30%);
   }
 #desktop-home{
